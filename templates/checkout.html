@@ -1,0 +1,74 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container my-5">
+    <div class="row justify-content-center">
+        <div class="col-12 text-center">
+            <h1 class="mb-4">Siparişi Onayla</h1>
+        </div>
+    </div>
+
+    <div class="row g-5">
+        <!-- Sol Sütun: Sipariş Özeti -->
+        <div class="col-lg-7">
+            <div class="card h-100">
+                <div class="card-header">
+                    <h5>Siparişinizdeki Ürünler</h5>
+                </div>
+                <div class="card-body p-0">
+                    <ul class="list-group list-group-flush">
+                        {% for item in items %}
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <div>
+                                <h6 class="my-0">{{ item.product.name }}</h6>
+                                <small class="text-muted">{{ item.product.billing_cycle }} x {{ item.quantity }} adet</small>
+                            </div>
+                            <span class="text-muted">{{ "%.2f"|format(item.product.price * item.quantity) }} TL</span>
+                        </li>
+                        {% endfor %}
+                        
+                        <li class="list-group-item d-flex justify-content-between">
+                            <span>Ara Toplam</span>
+                            <span>{{ "%.2f"|format(subtotal) }} TL</span>
+                        </li>
+
+                        {% if discount > 0 %}
+                        <li class="list-group-item d-flex justify-content-between text-success">
+                            <div>
+                                <h6 class="my-0">İndirim</h6>
+                                <small>Kupon: {{ applied_coupon.code }}</small>
+                            </div>
+                            <span class="fw-bold">- {{ "%.2f"|format(discount) }} TL</span>
+                        </li>
+                        {% endif %}
+
+                        <li class="list-group-item d-flex justify-content-between align-items-center fw-bold fs-5 bg-body-tertiary">
+                            <span>Genel Toplam</span>
+                            <strong>{{ "%.2f"|format(total_price) }} TL</strong>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sağ Sütun: Not ve Ödeme Butonu -->
+        <div class="col-lg-5">
+            <div class="card h-100">
+                 <div class="card-header">
+                    <h5>Sipariş Detayları</h5>
+                </div>
+                <div class="card-body">
+                    <form method="POST" action="">
+                        <div class="mb-3">
+                            <label for="notes" class="form-label">Sipariş Notu (İsteğe Bağlı)</label>
+                            <textarea class="form-control" id="notes" name="notes" rows="5" placeholder="Siparişinizle ilgili özel bir isteğiniz veya alan adı bilginiz varsa buraya yazabilirsiniz..."></textarea>
+                        </div>
+                        <div class="d-grid mt-4">
+                            <button type="submit" class="btn btn-primary btn-lg">Siparişi Tamamla ve Ödeme Yap &rarr;</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

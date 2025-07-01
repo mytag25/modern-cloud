@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mb-4">{{ order.product.name }} - Hizmet Bilgileri</h1>
+    <p class="text-muted">Bu sayfadaki bilgileri kimseyle paylaşmayınız.</p>
+    <div class="card">
+        <div class="card-header">
+            Giriş Bilgileriniz
+        </div>
+        <div class="card-body">
+            <p class="card-text">
+                <pre><code>{{ order.credential.content }}</code></pre>
+            </p>
+        </div>
+        <div class="card-footer text-muted">
+            Bilgiler Oluşturulma Tarihi: {{ order.credential.created_at.strftime('%d-%m-%Y %H:%M') }}
+        </div>
+    </div>
+    <a href="{{ url_for('customer_services') }}" class="btn btn-outline-secondary mt-3">Geri Dön</a>
+{% endblock %}

@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row g-5">
+    <div class="col-md-7">
+        <img src="{{ product.image_url or 'https://placehold.co/600x400/242424/EAEAEA/png?text=' + product.name }}" class="img-fluid rounded shadow-lg mb-4" alt="{{ product.name }}">
+        
+        <h1 class="display-5">{{ product.name }}</h1>
+        <hr>
+        <h5>Paket Özellikleri</h5>
+        <p>{{ product.description.replace('\n', '<br>') | safe }}</p>
+    </div>
+    <div class="col-md-5">
+        <div class="card p-4 position-sticky" style="top: 2rem;">
+            <h3 class="text-center">{{ "%.2f"|format(product.price) }} TL</h3>
+            <p class="text-center text-muted">/ {{ product.billing_cycle }}</p>
+            <form action="{{ url_for('add_to_cart', product_id=product.id) }}" method="POST">
+                <div class="d-grid">
+                    <button type="submit" class="btn btn-primary btn-lg mt-3">Sepete Ekle</button>
+                </div>
+            </form>
+            <a href="{{ url_for('paketler') }}" class="btn btn-outline-secondary mt-2">Diğer Paketler</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

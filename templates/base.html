@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="tr" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ title }} - Modern Hosting</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/chat-widget.css') }}">
+
+    <style>
+      :root {
+        --dark-bg: #1a1a1a;
+        --component-bg: #242424;
+        --gold-primary: #D4AF37;
+        --gold-hover: #EACD65;
+        --text-color: #EAEAEA;
+        --text-muted-color: #888;
+        --border-color: #404040;
+        --soft-radius: 0.5rem;
+      }
+      body {
+        background-color: var(--dark-bg);
+        color: var(--text-color);
+      }
+      .btn, .card, .form-control, .form-select, .modal-content, .alert, .list-group-item, .dropdown-menu {
+        border-radius: var(--soft-radius) !important;
+        transition: all 0.3s ease;
+      }
+      .card, .modal-content, .list-group-item, .dropdown-menu {
+        background-color: var(--component-bg);
+        border: 1px solid var(--border-color);
+      }
+      .form-control, .form-select {
+        background-color: var(--component-bg);
+        border-color: var(--border-color);
+        color: var(--text-color);
+      }
+      .form-control:focus, .form-select:focus {
+        background-color: var(--component-bg);
+        border-color: var(--gold-primary);
+        box-shadow: 0 0 10px rgba(212, 175, 55, 0.4);
+        color: var(--text-color);
+      }
+      .btn-primary {
+        background-color: var(--gold-primary);
+        border-color: var(--gold-primary);
+        color: #1a1a1a !important;
+        font-weight: bold;
+      }
+      .btn-primary:hover, .btn-primary:focus {
+        background-color: var(--gold-hover);
+        border-color: var(--gold-hover);
+        color: #1a1a1a !important;
+        transform: translateY(-2px);
+      }
+      .navbar {
+        background-color: var(--component-bg) !important;
+      }
+      .navbar-brand, .dropdown-item:hover, .dropdown-item:focus {
+         color: var(--gold-primary) !important;
+      }
+      a {
+        color: var(--text-color);
+        text-decoration: none;
+      }
+      a:hover {
+        color: var(--gold-hover);
+      }
+      .btn {
+          color: var(--text-color);
+      }
+       .btn-info {
+        --bs-btn-color: #000;
+        --bs-btn-bg: #0dcaf0;
+        --bs-btn-border-color: #0dcaf0;
+        --bs-btn-hover-color: #000;
+        --bs-btn-hover-bg: #31d2f2;
+        --bs-btn-hover-border-color: #25cff2;
+      }
+      .btn-success {
+         --bs-btn-color: #fff;
+         --bs-btn-bg: #198754;
+         --bs-btn-border-color: #198754;
+         --bs-btn-hover-color: #fff;
+         --bs-btn-hover-bg: #157347;
+         --bs-btn-hover-border-color: #146c43;
+      }
+      .list-group-item-action { color: var(--text-color) !important; }
+      .nav-link { color: var(--bs-body-color, var(--text-color)) !important; }
+      .list-group-item-action:hover, .nav-link:hover { color: var(--gold-hover) !important; }
+      .dropdown-item.active, .dropdown-item:active, .list-group-item.active {
+        background-color: var(--gold-primary);
+        border-color: var(--gold-primary);
+        color: #1a1a1a !important;
+        font-weight: bold;
+      }
+      .text-primary { color: var(--gold-primary) !important; }
+      .notification-dot {
+          width: 0.75rem;
+          height: 0.75rem;
+          border: 2px solid var(--component-bg) !important;
+      }
+      
+      /* Sepet Sayfası CSS Düzeltmeleri */
+      .quantity-input-group {
+        max-width: 140px;
+        margin: auto;
+      }
+      .quantity-input-group .form-control {
+        text-align: center;
+        border-right: 0;
+        border-left: 0;
+        height: calc(1.5em + .75rem + 2px); 
+      }
+      .quantity-input-group .btn {
+          border-radius: var(--soft-radius) !important;
+          z-index: 5;
+      }
+       .quantity-input-group .form-control:focus {
+          z-index: 1;
+      }
+      .quantity-input-group .btn-outline-secondary {
+        border-top-right-radius: 0 !important;
+        border-bottom-right-radius: 0 !important;
+      }
+       .quantity-input-group .btn-outline-danger {
+        border-top-left-radius: 0 !important;
+        border-bottom-left-radius: 0 !important;
+        margin-left: -1px; /* Birleşik görünüm için */
+      }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="{{ url_for('index') }}"><i class="bi bi-hdd-stack"></i> Modern Hosting</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('index') }}">Ana Sayfa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="{{ url_for('paketler') }}">Paketler</a></li>
+                </ul>
+                <ul class="navbar-nav align-items-center">
+                    {% if current_user.is_authenticated %}
+                        <li class="nav-item">
+                            <a class="nav-link position-relative me-2" href="{{ url_for('cart') }}" title="Sepetim">
+                                <i class="bi bi-cart-fill fs-5"></i>
+                                {% if cart_item_count > 0 %}
+                                <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger">
+                                    {{ cart_item_count }}
+                                    <span class="visually-hidden">sepetinizdeki ürünler</span>
+                                </span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link position-relative me-2" href="{{ url_for('notifications') }}" title="Bildirimler">
+                                <i class="bi bi-bell-fill fs-5"></i>
+                                {% if has_unread_notifications %}
+                                <span class="position-absolute top-0 start-100 translate-middle bg-danger rounded-circle notification-dot">
+                                    <span class="visually-hidden">Okunmamış bildirimler</span>
+                                </span>
+                                {% endif %}
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-person-circle me-1"></i> {{ current_user.username }}
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-end">
+                                {% if is_admin %}
+                                    <li><a class="dropdown-item" href="{{ url_for('admin_dashboard') }}"><i class="bi bi-shield-lock me-2"></i>Admin Paneli</a></li>
+                                {% elif is_support %}
+                                    <li><a class="dropdown-item" href="{{ url_for('support_live_chat') }}"><i class="bi bi-headset me-2"></i>Destek Paneli</a></li>
+                                {% else %}
+                                    <li><a class="dropdown-item" href="{{ url_for('customer_dashboard') }}"><i class="bi bi-speedometer2 me-2"></i>Hesabım</a></li>
+                                {% endif %}
+                                <li><a class="dropdown-item" href="{{ url_for('notifications') }}"><i class="bi bi-bell me-2"></i>Bildirimlerim</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item text-danger" href="{{ url_for('logout') }}"><i class="bi bi-box-arrow-right me-2"></i>Çıkış Yap</a></li>
+                            </ul>
+                        </li>
+                    {% else %}
+                        <li class="nav-item"><a class="nav-link" href="{{ url_for('login') }}">Giriş Yap</a></li>
+                        <li class="nav-item ms-2"><a class="btn btn-primary btn-sm" href="{{ url_for('register') }}">Kayıt Ol</a></li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============== DUYURU BÖLÜMÜ ============== -->
+    <div class="container mt-4">
+        {% if active_announcement %}
+        <div class="alert alert-dismissible fade show alert-{{ active_announcement.category }}" role="alert">
+            <h5 class="alert-heading"><i class="bi bi-megaphone-fill me-2"></i>{{ active_announcement.title }}</h5>
+            <p>{{ active_announcement.content }}</p>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+        {% endif %}
+    </div>
+    <!-- ============ DUYURU BÖLÜMÜ SONU ============== -->
+
+    <main class="container mt-4">
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                    <div class="alert alert-dismissible fade show 
+                        {% if category == 'danger' %}alert-danger{% elif category == 'success' %}alert-success{% else %}alert-info{% endif %}"
+                        role="alert">
+                        {{ message }}
+                        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+                    </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+        {% block content %}{% endblock %}
+    </main>
+    
+    <div class="toast-container position-fixed bottom-0 end-0 p-3">
+        <div id="notificationToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+            <div class="toast-header">
+                <strong class="me-auto" id="notificationTitle"></strong>
+                <small>şimdi</small>
+                <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+            </div>
+            <div class="toast-body" id="notificationBody"></div>
+        </div>
+    </div>
+
+    {% if not is_support and not is_admin %}
+    <div id="chat-bubble"><i class="bi bi-chat-dots-fill"></i></div>
+    <div id="chat-popup" class="chat-popup">
+        <div class="chat-header">
+            <h5 id="chat-header-title">Canlı Destek</h5>
+            <button id="close-chat" class="btn-close"></button>
+        </div>
+        <div id="chat-messages"></div>
+        <form id="customer-chat-form" class="chat-form" style="display: none;"></form>
+    </div>
+    {% endif %}
+
+    <footer class="container mt-5 py-3 border-top text-center text-muted">
+        &copy; 2025 Modern Hosting Platformu. Tüm hakları saklıdır.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.socket.io/4.7.5/socket.io.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    {% if current_user.is_authenticated %}
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const socket = io();
+            const notificationToastEl = document.getElementById('notificationToast');
+            if (notificationToastEl) {
+                const notificationToast = bootstrap.Toast.getOrCreateInstance(notificationToastEl);
+                socket.on('new_notification', function(data) {
+                    document.getElementById('notificationTitle').innerText = data.title;
+                    document.getElementById('notificationBody').innerText = data.message;
+                    notificationToast.show();
+                });
+            }
+        });
+    </script>
+    {% endif %}
+
+    {% if not is_support and not is_admin %}
+    <script src="{{ url_for('static', filename='js/chat-widget.js') }}"></script>
+    {% endif %}
+    
+    {% block scripts %}{% endblock %}
+</body>
+</html>

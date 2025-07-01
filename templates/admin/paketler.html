@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Paket Yönetimi</h1>
+        <a href="{{ url_for('new_product') }}" class="btn btn-primary"><i class="bi bi-plus-circle"></i> Yeni Paket Ekle</a>
+    </div>
+    <div class="card">
+        <div class="card-body">
+             {% if products %}
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead>
+                        <tr>
+                            <th>ID</th><th>Paket Adı</th><th>Fiyat</th><th>Döngü</th><th>İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for product in products %}
+                        <tr>
+                            <td>{{ product.id }}</td>
+                            <td>{{ product.name }}</td>
+                            <td>{{ "%.2f"|format(product.price) }} TL</td>
+                            <td>{{ product.billing_cycle }}</td>
+                            <td>
+                                <a href="{{ url_for('edit_product', product_id=product.id) }}" class="btn btn-sm btn-info"><i class="bi bi-pencil-square"></i> Düzenle</a>
+                                <form action="{{ url_for('delete_product', product_id=product.id) }}" method="POST" class="d-inline" onsubmit="return confirm('Bu paketi silmek istediğinizden emin misiniz?');">
+                                    <button type="submit" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i> Sil</button>
+                                </form>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <p class="text-center">Henüz oluşturulmuş bir paket yok.</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

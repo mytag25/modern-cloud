@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mb-4">Hoş Geldin, {{ current_user.username }}!</h1>
+    <div class="row">
+        <div class="col-md-6 mb-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Aktif Hizmetlerin</h5>
+                    <p class="display-4">{{ active_services_count }}</p>
+                    <a href="{{ url_for('customer_services') }}" class="btn btn-primary">Hizmetleri Görüntüle</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 mb-4">
+            <div class="card text-center">
+                <div class="card-body">
+                    <h5 class="card-title">Bekleyen Siparişlerin</h5>
+                    <p class="display-4">{{ pending_orders_count }}</p>
+                    <a href="{{ url_for('customer_orders') }}" class="btn btn-outline-primary">Siparişleri Görüntüle</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="list-group">
+      <a href="{{ url_for('customer_dashboard') }}" class="list-group-item list-group-item-action active" aria-current="true"><i class="bi bi-speedometer2 me-2"></i>Panelim</a>
+      <a href="{{ url_for('customer_services') }}" class="list-group-item list-group-item-action"><i class="bi bi-hdd-stack me-2"></i>Hizmetlerim</a>
+      <a href="{{ url_for('customer_orders') }}" class="list-group-item list-group-item-action"><i class="bi bi-box-seam me-2"></i>Siparişlerim</a>
+      <a href="#" class="list-group-item list-group-item-action"><i class="bi bi-person-badge me-2"></i>Profil Bilgilerim</a>
+        <a href="{{ url_for('change_password') }}" class="list-group-item list-group-item-action"><i class="bi bi-key me-2"></i>Şifre Değiştir</a>
+      <a href="{{ url_for('logout') }}" class="list-group-item list-group-item-action text-danger"><i class="bi bi-box-arrow-left me-2"></i>Güvenli Çıkış</a>
+    </div>
+{% endblock %}

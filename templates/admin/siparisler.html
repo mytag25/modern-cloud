@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+{% block content %}
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <h1>Sipariş Yönetimi</h1>
+        
+        {% if request.args.get('status') == 'İptal Edildi' and orders %}
+        <form action="{{ url_for('delete_canceled_orders') }}" method="POST" onsubmit="return confirm('Tüm iptal edilmiş siparişleri kalıcı olarak silmek istediğinizden emin misiniz? Bu işlem geri alınamaz!');">
+            <button type="submit" class="btn btn-danger btn-sm">
+                <i class="bi bi-trash-fill me-2"></i>Tümünü Kalıcı Olarak Sil
+            </button>
+        </form>
+        {% endif %}
+
+        <div class="btn-group">
+            <a href="{{ url_for('admin_orders') }}" class="btn btn-sm {% if not request.args.get('status') %}btn-primary{% else %}btn-outline-secondary{% endif %}">Tümü</a>
+            <a href="{{ url_for('admin_orders', status='Onay Bekliyor') }}" class="btn btn-sm {% if request.args.get('status') == 'Onay Bekliyor' %}btn-warning text-dark{% else %}btn-outline-warning{% endif %}">Onay Bekleyenler</a>
+            
+            <!-- YENİ FİLTRE BUTONU -->
+            <a href="{{ url_for('admin_orders', status='İptal Talep Edildi') }}" class="btn btn-sm {% if request.args.get('status') == 'İptal Talep Edildi' %}btn-secondary{% else %}btn-outline-secondary{% endif %}">İptal Talepleri</a>
+
+            <a href="{{ url_for('admin_orders', status='Aktif') }}" class="btn btn-sm {% if request.args.get('status') == 'Aktif' %}btn-success{% else %}btn-outline-success{% endif %}">Aktif</a>
+            <a href="{{ url_for('admin_orders', status='İptal Edildi') }}" class="btn btn-sm {% if request.args.get('status') == 'İptal Edildi' %}btn-danger{% else %}btn-outline-danger{% endif %}">İptal Edilenler</a>
+        </div>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            {% if orders %}
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead>
+                        <tr>
+                            <th style="width: 5%;">ID</th>
+                            <th style="width: 15%;">Müşteri</th>
+                            <th style="width: 20%;">Paket</th>
+                            <th style="width: 15%;">Sipariş Tarihi</th>
+                            <th style="width: 10%;">Notlar</th>
+                            <th style="width: 15%;">Durum</th>
+                            <th class="text-end" style="width: 20%;">İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for order in orders %}
+                        <tr>
+                            <td>#{{ order.id }}</td>
+                            <td>{{ order.customer.username }}</td>
+                            <td>{{ order.product.name }}</td>
+                            <td>{{ order.order_date.strftime('%d-%m-%Y') }}</td>
+                            <td>
+                                {% if order.notes %}
+                                    <button type="button" class="btn btn-sm btn-outline-info" 
+                                            data-bs-container="body" 
+                                            data-bs-toggle="popover" 
+                                            data-bs-placement="top" 
+                                            data-bs-content="{{ order.notes }}">
+                                        <i class="bi bi-chat-left-text-fill"></i>
+                                    </button>
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if order.status == 'Aktif' %}
+                                    <span class="badge bg-success">{{ order.status }}</span>
+                                {% elif order.status == 'Onay Bekliyor' %}
+                                    <span class="badge bg-warning text-dark">{{ order.status }}</span>
+                                {% elif order.status == 'İptal Talep Edildi' %}
+                                    <span class="badge bg-secondary">{{ order.status }}</span>
+                                {% else %}
+                                    <span class="badge bg-danger">{{ order.status }}</span>
+                                {% endif %}
+                            </td>
+                            <td class="text-end">
+                                {% if order.status == 'Onay Bekliyor' or order.status == 'İptal Talep Edildi' %}
+                                    <a href="{{ url_for('approve_order', order_id=order.id) }}" class="btn btn-sm btn-success"><i class="bi bi-check-lg"></i> Onayla</a>
+                                    <form action="{{ url_for('cancel_order', order_id=order.id) }}" method="POST" class="d-inline ms-1">
+                                        <button type="submit" class="btn btn-sm btn-danger"><i class="bi bi-x-lg"></i> İptal Et</button>
+                                    </form>
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <div class="alert alert-info text-center">
+                Bu filtrede görüntülenecek sipariş bulunmuyor.
+            </div>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+    const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+</script>
+{% endblock %}

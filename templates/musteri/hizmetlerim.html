@@ -1,0 +1,69 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mb-4">Aktif Hizmetlerim</h1>
+    <div class="card">
+        <div class="card-body">
+            {% if services %}
+            <div class="table-responsive">
+                <table class="table table-hover align-middle">
+                    <thead>
+                        <tr>
+                            <th>Paket Adı</th>
+                            <th>Aktivasyon Tarihi</th>
+                            <th>Son Kullanma Tarihi</th>
+                            <th class="text-center">Kalan Süre</th>
+                            <th class="text-end">İşlemler</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for service in services %}
+                        <tr>
+                            <td>{{ service.order.product.name }}</td>
+                            <td>{{ service.order.order_date.strftime('%d-%m-%Y') }}</td>
+                            <td>
+                                {% if service.order.expiry_date %}
+                                    {{ service.order.expiry_date.strftime('%d-%m-%Y') }}
+                                {% else %}
+                                    -
+                                {% endif %}
+                            </td>
+                            <td class="text-center">
+                                {% if service.order.status == 'İptal Talep Edildi' %}
+                                    <span class="badge bg-secondary">İptal Bekleniyor</span>
+                                {% elif service.days_left > 0 %}
+                                    <span class="badge {% if service.days_left <= 30 %}bg-danger{% else %}bg-success{% endif %}">
+                                        {{ service.days_left }} gün
+                                    </span>
+                                {% else %}
+                                    <span class="badge bg-secondary">Süresi Doldu</span>
+                                {% endif %}
+                            </td>
+                            <td class="text-end">
+                                <!-- Eğer iptal talebi yoksa butonları göster -->
+                                {% if service.order.status != 'İptal Talep Edildi' %}
+                                    <a href="{{ url_for('service_detail', order_id=service.order.id) }}" class="btn btn-sm btn-info">Yönet</a>
+                                    
+                                    <!-- Yenileme Formu -->
+                                    <form action="{{ url_for('renew_service', order_id=service.order.id) }}" method="POST" class="d-inline">
+                                        <button type="submit" class="btn btn-sm btn-warning">Şimdi Yenile</button>
+                                    </form>
+
+                                    <!-- İptal Formu -->
+                                    <form action="{{ url_for('request_cancellation', order_id=service.order.id) }}" method="POST" class="d-inline" onsubmit="return confirm('Bu hizmet için iptal talebi oluşturmak istediğinizden emin misiniz?');">
+                                        <button type="submit" class="btn btn-sm btn-outline-danger">İptal Et</button>
+                                    </form>
+                                {% else %}
+                                    <span class="text-muted fst-italic">İşlemde...</span>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+            {% else %}
+            <p class="text-center">Henüz aktif bir hizmetiniz bulunmuyor.</p>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mb-4">{{ legend }}</h1>
+    <div class="card">
+        <div class="card-body">
+            <form method="POST" action="">
+                {{ form.hidden_tag() }}
+                <div class="mb-3">
+                    {{ form.name.label(class="form-label") }}
+                    {{ form.name(class="form-control " + ('is-invalid' if form.name.errors else '')) }}
+                    {% if form.name.errors %}
+                        <div class="invalid-feedback">{{ form.name.errors[0] }}</div>
+                    {% endif %}
+                </div>
+                <div class="mb-3">
+                    {{ form.description.label(class="form-label") }}
+                    {{ form.description(class="form-control " + ('is-invalid'if form.description.errors else ''), rows=5) }}
+                     {% if form.description.errors %}
+                        <div class="invalid-feedback">{{ form.description.errors[0] }}</div>
+                    {% endif %}
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mb-3">
+                        {{ form.price.label(class="form-label") }}
+                        {{ form.price(class="form-control " + ('is-invalid' if form.price.errors else '')) }}
+                         {% if form.price.errors %}
+                            <div class="invalid-feedback">{{ form.price.errors[0] }}</div>
+                        {% endif %}
+                    </div>
+                    <div class="col-md-6 mb-3">
+                         {{ form.billing_cycle.label(class="form-label") }}
+                         {{ form.billing_cycle(class="form-select " + ('is-invalid' if form.billing_cycle.errors else '')) }}
+                         {% if form.billing_cycle.errors %}
+                            <div class="invalid-feedback">{{ form.billing_cycle.errors[0] }}</div>
+                        {% endif %}
+                    </div>
+                </div>
+                <div class="mb-3">
+                    {{ form.image_url.label(class="form-label") }}
+                    {{ form.image_url(class="form-control " + ('is-invalid' if form.image_url.errors else ''), placeholder="https://ornek.com/resim.jpg") }}
+                    {% if form.image_url.errors %}
+                        <div class="invalid-feedback">{{ form.image_url.errors[0] }}</div>
+                    {% endif %}
+                </div>
+                <div class="d-grid">
+                    {{ form.submit(class="btn btn-primary") }}
+                </div>
+            </form>
+        </div>
+    </div>
+    <a href="{{ url_for('admin_products') }}" class="btn btn-outline-secondary mt-3">Geri Dön</a>
+{% endblock %}

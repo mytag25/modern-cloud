@@ -1,0 +1,109 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mb-4">Admin Paneli</h1>
+    <div class="row">
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-primary h-100">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs fw-bold text-primary text-uppercase mb-1">Toplam Müşteri</div>
+                            <div class="h5 mb-0 fw-bold">{{ stats.user_count }}</div>
+                        </div>
+                        <div class="col-auto"><i class="bi bi-people-fill fs-2 text-secondary"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-warning h-100">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs fw-bold text-warning text-uppercase mb-1">Onay Bekleyen Sipariş</div>
+                            <div id="pending-orders-count" class="h5 mb-0 fw-bold">{{ stats.pending_orders }}</div>
+                        </div>
+                        <div class="col-auto"><i class="bi bi-clock-history fs-2 text-secondary"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-success h-100">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs fw-bold text-success text-uppercase mb-1">Aktif Hizmet</div>
+                            <div class="h5 mb-0 fw-bold">{{ stats.active_services }}</div>
+                        </div>
+                        <div class="col-auto"><i class="bi bi-hdd-stack-fill fs-2 text-secondary"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-xl-3 col-md-6 mb-4">
+            <div class="card border-info h-100">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="text-xs fw-bold text-info text-uppercase mb-1">Toplam Paket</div>
+                            <div class="h5 mb-0 fw-bold">{{ stats.total_products }}</div>
+                        </div>
+                        <div class="col-auto"><i class="bi bi-box-fill fs-2 text-secondary"></i></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="list-group mt-3">
+      <a href="{{ url_for('admin_dashboard') }}" class="list-group-item list-group-item-action active" aria-current="true"><i class="bi bi-speedometer2 me-2"></i>Admin Paneli</a>
+      <a href="{{ url_for('admin_orders') }}" class="list-group-item list-group-item-action"><i class="bi bi-box-seam me-2"></i>Sipariş Yönetimi</a>
+      <a href="{{ url_for('admin_products') }}" class="list-group-item list-group-item-action"><i class="bi bi-box me-2"></i>Paket Yönetimi</a>
+        <a href="{{ url_for('admin_coupons') }}" class="list-group-item list-group-item-action"><i class="bi bi-ticket me-2"></i>Kupon Yönetimi</a>
+         <a href="{{ url_for('admin_announcements') }}" class="list-group-item list-group-item-action"><i class="bi bi-megaphone-fill me-2"></i>Duyuru Yönetimi</a>
+        <a href="{{ url_for('admin_reports') }}" class="list-group-item list-group-item-action"><i class="bi bi-bar-chart-line-fill me-2"></i>Raporlar</a>
+        <a href="{{ url_for('admin_customers') }}" class="list-group-item list-group-item-action"><i class="bi bi-people me-2"></i>Müşteri Yönetimi</a>
+      <a href="{{ url_for('add_manual_service') }}" class="list-group-item list-group-item-action"><i class="bi bi-plus-square-dotted me-2"></i>Manuel Hizmet Ekle</a>
+      <a href="{{ url_for('send_notification') }}" class="list-group-item list-group-item-action"><i class="bi bi-send-fill me-2"></i>Bildirim Gönder</a>
+        {# <a href="{{ url_for('settings') }}" class="list-group-item list-group-item-action"><i class="bi bi-credit-card-2-front-fill me-2"></i>Ödeme Ayarları</a> #}
+      <a href="{{ url_for('support_live_chat') }}" class="list-group-item list-group-item-action"><i class="bi bi-headset me-2"></i>Canlı Destek</a>
+    </div>
+
+    <audio id="notification-sound" src="{{ url_for('static', filename='sounds/notification.mp3') }}" preload="auto"></audio>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        // Yeni sipariş bildirimleri /chat namespace'indeki 'support_team' odasına gönderildiği için
+        // admin panelinin bu bildirimleri alabilmesi için bu kanala bağlanması gerekir.
+        const socket = io('/chat');
+        
+        socket.on('connect', () => {
+            console.log('Admin dashboard /chat kanalına bağlandı.');
+            // Sunucuya, bu bağlantının destek ekibine ait olduğunu bildiriyoruz.
+            socket.emit('join_support_team');
+        });
+
+        socket.on('new_order', function(data) {
+            const audio = document.getElementById('notification-sound');
+            if(audio) {
+                audio.play().catch(e => console.error("Ses çalınamadı:", e));
+            }
+            const countElement = document.getElementById('pending-orders-count');
+            if (countElement) {
+                countElement.innerText = data.pending_count;
+                // Görsel bir efekt ekleyelim
+                countElement.style.transition = 'all 0.2s';
+                countElement.style.transform = 'scale(1.2)';
+                countElement.classList.add('text-warning', 'fw-bolder');
+                setTimeout(() => { 
+                    countElement.style.transform = 'scale(1)'; 
+                    countElement.classList.remove('text-warning', 'fw-bolder');
+                }, 2000);
+            }
+        });
+    });
+</script>
+{% endblock %}

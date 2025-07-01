@@ -1,0 +1,139 @@
+/* Ana Sohbet Baloncuğu */
+#chat-bubble {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 60px;
+    height: 60px;
+    background-color: var(--gold-primary, #D4AF37);
+    color: #1a1a1a;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    cursor: pointer;
+    z-index: 1000;
+    box-shadow: 0 4px S10px rgba(0,0,0,0.3);
+    transition: transform 0.2s ease-in-out;
+}
+
+#chat-bubble:hover {
+    transform: scale(1.1);
+}
+
+/* Sohbet Penceresi Ana Kapsayıcı */
+.chat-popup {
+    background-color: var(--component-bg, #242424);
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 370px;
+    height: 550px;
+    max-height: calc(100% - 40px);
+    border: 1px solid var(--border-color, #404040);
+    border-radius: var(--soft-radius, 0.5rem);
+    box-shadow: 0 5px 25px rgba(0,0,0,0.4);
+    z-index: 1001;
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+/* Sohbet Penceresi Başlığı */
+.chat-header {
+    padding: 1rem;
+    background-color: #313131;
+    border-bottom: 1px solid var(--border-color, #404040);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--text-color, #EAEAEA);
+}
+
+.chat-header h5 {
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+/* Mesajların Gösterildiği Alan (Hizalama için en önemli kısım) */
+#chat-messages, .chat-messages-customer {
+    flex-grow: 1;
+    padding: 1rem;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+/* Her bir mesaj balonu için temel stil */
+.chat-message {
+    padding: 0.6rem 1rem;
+    border-radius: 1.1rem;
+    max-width: 85%;
+    word-wrap: break-word;
+    line-height: 1.4;
+}
+
+/* Müşterinin gönderdiği mesaj (Sağa Yaslı ve Renkli) */
+.user-message {
+    background-color: #0d6efd; /* Müşteri için standart mavi */
+    color: white;
+    align-self: flex-end; 
+    border-bottom-right-radius: 0.25rem;
+}
+
+/* Desteğin gönderdiği mesaj (Sola Yaslı ve Renkli) */
+.support-message {
+    background-color: #495057; /* Destek için gri */
+    color: #f8f9fa;
+    align-self: flex-start;
+    border-bottom-left-radius: 0.25rem;
+}
+
+/* Sistem mesajları (Sohbete katıldı, ayrıldı vb.) */
+.system-message {
+    font-size: 0.8rem;
+    color: var(--text-muted-color, #888);
+    text-align: center;
+    width: 100%;
+    align-self: center;
+}
+
+/* Mesaj Yazma Formu */
+.chat-form {
+    display: flex;
+    padding: 0.75rem;
+    border-top: 1px solid var(--border-color, #404040);
+    background-color: #343a40;
+}
+
+.chat-form input {
+    flex-grow: 1;
+    border: 1px solid var(--border-color, #404040);
+    background-color: var(--dark-bg, #1a1a1a);
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+.chat-form input:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(212, 175, 55, 0.4);
+    border-color: var(--gold-primary, #D4AF37);
+}
+
+.chat-form button {
+    background: none;
+    border: none;
+    color: var(--gold-primary, #D4AF37);
+    font-size: 24px;
+    margin-left: 10px;
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.chat-form button:hover {
+    color: var(--gold-hover, #EACD65);
+}

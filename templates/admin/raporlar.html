@@ -1,0 +1,106 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-4">
+    <h1>Raporlar ve İstatistikler</h1>
+</div>
+
+<!-- Aylık Gelir Grafiği -->
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <h4>Aylık Gelir Grafiği (Sadece Aktif Siparişler)</h4>
+            </div>
+            <div class="card-body">
+                <canvas id="revenueChart"></canvas>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mt-4">
+    <!-- En Çok Satan Paketler -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h4>En Çok Satan 5 Paket</h4>
+            </div>
+            <div class="card-body">
+                {% if best_selling_products %}
+                <ul class="list-group list-group-flush">
+                    {% for product, count in best_selling_products %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        {{ product }}
+                        <span class="badge bg-primary rounded-pill">{{ count }} adet</span>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <p class="text-center text-muted">Henüz satış verisi yok.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+
+    <!-- Son Kaydolan Müşteriler -->
+    <div class="col-md-6">
+        <div class="card">
+            <div class="card-header">
+                <h4>Son 10 Müşteri</h4>
+            </div>
+            <div class="card-body">
+                {% if recent_customers %}
+                <ul class="list-group list-group-flush">
+                    {% for customer in recent_customers %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center">
+                        <div>
+                            <strong>{{ customer.username }}</strong>
+                            <br>
+                            <small class="text-muted">{{ customer.email }}</small>
+                        </div>
+                        <small class="text-muted">{{ customer.id }}</small>
+                    </li>
+                    {% endfor %}
+                </ul>
+                {% else %}
+                <p class="text-center text-muted">Henüz kayıtlı müşteri yok.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const ctx = document.getElementById('revenueChart').getContext('2d');
+    const revenueChart = new Chart(ctx, {
+        type: 'bar', // Grafik tipi: 'bar', 'line', 'pie' vb.
+        data: {
+            labels: {{ chart_labels | tojson }},
+            datasets: [{
+                label: 'Aylık Gelir (TL)',
+                data: {{ chart_data | tojson }},
+                backgroundColor: 'rgba(212, 175, 55, 0.6)', // Gold-primary rengi
+                borderColor: 'rgba(212, 175, 55, 1)',
+                borderWidth: 1
+            }]
+        },
+        options: {
+            scales: {
+                y: {
+                    beginAtZero: true,
+                    ticks: {
+                        callback: function(value, index, values) {
+                            return value + ' TL';
+                        }
+                    }
+                }
+            }
+        }
+    });
+});
+</script>
+{% endblock %}

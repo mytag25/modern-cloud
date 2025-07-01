@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yönlendiriliyorsunuz...</title>
+</head>
+<body onload="document.getElementById('shopier_form').submit();">
+    <p>Shopier'a yönlendiriliyorsunuz...</p>
+    <form id="shopier_form" method="post" action="https://www.shopier.com/pg_engine.php" style="display: none;">
+        {% for key, value in params.items %}
+            <input type="hidden" name="{{ key }}" value="{{ value }}">
+        {% endfor %}
+    </form>
+</body>
+</html>

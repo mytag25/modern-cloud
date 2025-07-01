@@ -1,0 +1,1244 @@
+2025-06-25 10:55:27,174 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 10:55:28,670 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: KCE27rCxw3Og4XYiAAAB
+2025-06-25 10:55:28,847 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: j3Gunmb7_xYN9y1MAAAC
+2025-06-25 10:55:29,865 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: DfAj1s-rQRfXe9X0AAAE
+2025-06-25 10:55:30,026 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: 0SzlXiH4C-A_yKojAAAG
+2025-06-25 10:55:31,681 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: KY7-Zri9d5Ry2BLVAAAI
+2025-06-25 10:55:31,852 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: PMxNEkRpTu8fwyCmAAAJ
+2025-06-25 10:55:56,638 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: 2PmH7oY8fwUtw8tHAAAL
+2025-06-25 10:55:56,805 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: UycJHW5QVAsaWVsRAAAM
+2025-06-25 10:56:06,773 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: 2PmH7oY8fwUtw8tHAAAL
+2025-06-25 10:56:07,157 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: X_6D8ijZiGE2OG-GAAAO
+2025-06-25 10:56:07,329 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: DFkAlRlFJdWCMLeuAAAP
+2025-06-25 10:56:10,306 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: DfAj1s-rQRfXe9X0AAAE
+2025-06-25 10:56:10,964 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: J6Dxc6k5xJeN3m3iAAAR
+2025-06-25 10:56:11,130 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: jCuv_vCYwNnXw2QBAAAT
+2025-06-25 10:56:12,872 INFO close_chat_by_admin(596) admin tarafından Sohbet #9 kapatıldı.
+2025-06-25 10:56:14,829 INFO close_chat_by_admin(596) admin tarafından Sohbet #8 kapatıldı.
+2025-06-25 10:56:16,109 INFO close_chat_by_admin(596) admin tarafından Sohbet #4 kapatıldı.
+2025-06-25 10:56:17,428 INFO close_chat_by_admin(596) admin tarafından Sohbet #3 kapatıldı.
+2025-06-25 10:56:20,993 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: KCE27rCxw3Og4XYiAAAB
+2025-06-25 10:56:21,386 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: 0W40aUlYk1DflX7uAAAV
+2025-06-25 10:56:21,558 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: qL3CMPE-Fq-g3xgDAAAW
+2025-06-25 10:56:23,823 INFO customer_send_message(496) Yeni sohbet odası oluşturuldu: ID 10
+2025-06-25 10:56:23,835 INFO customer_send_message(515) Müşteri mesajı qL3CMPE-Fq-g3xgDAAAW odasındaki yetkililere gönderildi.
+2025-06-25 10:56:25,235 INFO admin_join_room(562) Yetkili (jCuv_vCYwNnXw2QBAAAT), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:28,379 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: J6Dxc6k5xJeN3m3iAAAR
+2025-06-25 10:56:28,728 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: Tn2xn3d0ugTgmgvXAAAY
+2025-06-25 10:56:28,894 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: 9ReU25SqUHkh91_lAAAa
+2025-06-25 10:56:29,695 INFO admin_join_room(562) Yetkili (9ReU25SqUHkh91_lAAAa), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:31,384 INFO support_send_message(549) Yetkili admin, qL3CMPE-Fq-g3xgDAAAW odasındaki müşteriye mesaj gönderdi.
+2025-06-25 10:56:32,980 INFO support_send_message(549) Yetkili admin, qL3CMPE-Fq-g3xgDAAAW odasındaki müşteriye mesaj gönderdi.
+2025-06-25 10:56:35,726 INFO customer_send_message(515) Müşteri mesajı qL3CMPE-Fq-g3xgDAAAW odasındaki yetkililere gönderildi.
+2025-06-25 10:56:40,319 INFO customer_send_message(515) Müşteri mesajı qL3CMPE-Fq-g3xgDAAAW odasındaki yetkililere gönderildi.
+2025-06-25 10:56:41,944 INFO admin_join_room(562) Yetkili (9ReU25SqUHkh91_lAAAa), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:43,023 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: Tn2xn3d0ugTgmgvXAAAY
+2025-06-25 10:56:43,375 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: 59TACjUikbJ2xNYAAAAc
+2025-06-25 10:56:43,543 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: CMnugZk-_NElfqVQAAAe
+2025-06-25 10:56:44,440 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: JgFPwqrz5yFzYew-AAAg
+2025-06-25 10:56:45,694 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: mERCuE-ZlIIwso20AAAi
+2025-06-25 10:56:46,352 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:46,888 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:47,042 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:47,188 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:47,346 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:47,509 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:47,687 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:47,843 INFO admin_join_room(562) Yetkili (mERCuE-ZlIIwso20AAAi), müşteri odasına (qL3CMPE-Fq-g3xgDAAAW) katıldı.
+2025-06-25 10:56:48,850 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: JgFPwqrz5yFzYew-AAAg
+2025-06-25 10:56:49,197 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: phN49t_KTtugz0ywAAAk
+2025-06-25 10:56:49,365 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: GbKmuR8GV38eOCwjAAAm
+2025-06-25 10:56:49,988 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: SpeswhfAgXY_gqaGAAAo
+2025-06-25 10:56:51,241 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: BZ5VgFll0Ekz4A-LAAAq
+2025-06-25 10:57:38,549 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: 59TACjUikbJ2xNYAAAAc
+2025-06-25 10:57:41,889 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: phN49t_KTtugz0ywAAAk
+2025-06-25 10:59:37,975 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: SpeswhfAgXY_gqaGAAAo
+2025-06-25 10:59:37,993 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: 0W40aUlYk1DflX7uAAAV
+2025-06-25 10:59:37,995 INFO chat_disconnect(476) Ziyaretçi qL3CMPE-Fq-g3xgDAAAW sohbetten ayrıldı, adminlere haber verildi.
+2025-06-25 10:59:38,013 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: X_6D8ijZiGE2OG-GAAAO
+2025-06-25 10:59:39,147 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: fhNvSp7RqAU07L9RAAAs
+2025-06-25 10:59:39,474 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: RHwpcus_t6lr-1qwAAAu
+2025-06-25 10:59:39,641 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: MScwZezTNHIif2WmAAAv
+2025-06-25 10:59:39,805 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: qrEgFZ_l94zkOxvAAAAx
+2025-06-25 10:59:39,884 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: ewZBzcbWVCiKBj7CAAAy
+2025-06-25 10:59:40,074 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: oTxwf6b_-EhKqyxHAAA0
+2025-06-25 10:59:48,233 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 10:59:48,884 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: uvyvulSeMC3hj3oEAAAB
+2025-06-25 10:59:49,093 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: mWirS4b7X4Y9wUkfAAAC
+2025-06-25 10:59:49,393 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: P_Fk6QZ-KBk1k5zDAAAE
+2025-06-25 10:59:49,572 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: 7YtWlTg0sFi8rqntAAAF
+2025-06-25 10:59:49,884 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: gkicpCOB0eTvlxQuAAAH
+2025-06-25 10:59:50,056 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: -osnVXtirVt6tBFuAAAJ
+2025-06-25 10:59:53,453 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: r1uGUYlrUs8zX2NRAAAL
+2025-06-25 10:59:53,590 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: gkicpCOB0eTvlxQuAAAH
+2025-06-25 10:59:53,620 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: OWztJGzmocOzKPUPAAAM
+2025-06-25 10:59:54,124 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: 2NRVsG1-pBGdj1OHAAAO
+2025-06-25 10:59:54,305 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: blyasX4BkTsm3XEDAAAQ
+2025-06-25 10:59:55,135 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: P_Fk6QZ-KBk1k5zDAAAE
+2025-06-25 10:59:55,642 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: vX79-_Q9aEorKsMwAAAS
+2025-06-25 10:59:55,807 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: iHT-db8ZJnWPddG-AAAT
+2025-06-25 10:59:57,203 INFO close_chat_by_admin(596) admin tarafından Sohbet #10 kapatıldı.
+2025-06-25 11:00:01,801 INFO customer_send_message(496) Yeni sohbet odası oluşturuldu: ID 11
+2025-06-25 11:00:01,816 INFO customer_send_message(515) Müşteri mesajı iHT-db8ZJnWPddG-AAAT odasındaki yetkililere gönderildi.
+2025-06-25 11:00:03,189 INFO admin_join_room(562) Yetkili (blyasX4BkTsm3XEDAAAQ), müşteri odasına (iHT-db8ZJnWPddG-AAAT) katıldı.
+2025-06-25 11:00:06,490 INFO support_send_message(549) Yetkili admin, iHT-db8ZJnWPddG-AAAT odasındaki müşteriye mesaj gönderdi.
+2025-06-25 11:00:09,263 INFO support_send_message(549) Yetkili admin, iHT-db8ZJnWPddG-AAAT odasındaki müşteriye mesaj gönderdi.
+2025-06-25 11:00:10,605 INFO support_send_message(549) Yetkili admin, iHT-db8ZJnWPddG-AAAT odasındaki müşteriye mesaj gönderdi.
+2025-06-25 11:00:12,934 INFO customer_send_message(515) Müşteri mesajı iHT-db8ZJnWPddG-AAAT odasındaki yetkililere gönderildi.
+2025-06-25 11:00:23,483 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: vX79-_Q9aEorKsMwAAAS
+2025-06-25 11:00:23,486 INFO chat_disconnect(476) Ziyaretçi iHT-db8ZJnWPddG-AAAT sohbetten ayrıldı, adminlere haber verildi.
+2025-06-25 11:00:23,493 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: uvyvulSeMC3hj3oEAAAB
+2025-06-25 11:00:24,699 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: IIjWa9Fs8d0pAlkWAAAV
+2025-06-25 11:00:24,869 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: vZ9rJqAAyK9DCp-7AAAX
+2025-06-25 11:00:24,873 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: z-ZMR3SvwA2dWHxMAAAY
+2025-06-25 11:00:25,038 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: DOEk7aDX9ZUa7gQhAAAZ
+2025-06-25 11:01:33,384 INFO customer_send_message(496) Yeni sohbet odası oluşturuldu: ID 12
+2025-06-25 11:01:33,403 INFO customer_send_message(515) Müşteri mesajı vZ9rJqAAyK9DCp-7AAAX odasındaki yetkililere gönderildi.
+2025-06-25 11:01:34,471 INFO admin_join_room(562) Yetkili (blyasX4BkTsm3XEDAAAQ), müşteri odasına (vZ9rJqAAyK9DCp-7AAAX) katıldı.
+2025-06-25 11:01:35,705 INFO support_send_message(549) Yetkili admin, vZ9rJqAAyK9DCp-7AAAX odasındaki müşteriye mesaj gönderdi.
+2025-06-25 11:01:38,114 INFO handle_disconnect(457) Kullanıcı ayrıldı: admin, SID: 2NRVsG1-pBGdj1OHAAAO
+2025-06-25 11:01:52,649 INFO handle_connect(446) Kullanıcı bağlandı: admin, SID: UBGOBJfF-nCn5NQiAAAb
+2025-06-25 11:01:53,971 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: IIjWa9Fs8d0pAlkWAAAV
+2025-06-25 11:01:53,973 INFO chat_disconnect(476) Ziyaretçi vZ9rJqAAyK9DCp-7AAAX sohbetten ayrıldı, adminlere haber verildi.
+2025-06-25 11:01:57,809 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: tpNaOdRVoeHrAlJoAAAd
+2025-06-25 11:02:09,015 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: IhZTl6ULeQovsO0vAAAf
+2025-06-25 11:02:09,184 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: lLJHhEJxRWd4t0reAAAg
+2025-06-25 11:02:18,323 INFO customer_send_message(496) Yeni sohbet odası oluşturuldu: ID 13
+2025-06-25 11:02:18,338 INFO customer_send_message(515) Müşteri mesajı lLJHhEJxRWd4t0reAAAg odasındaki yetkililere gönderildi.
+2025-06-25 11:02:20,348 INFO admin_join_room(562) Yetkili (tpNaOdRVoeHrAlJoAAAd), müşteri odasına (lLJHhEJxRWd4t0reAAAg) katıldı.
+2025-06-25 11:02:21,428 INFO support_send_message(549) Yetkili admin, lLJHhEJxRWd4t0reAAAg odasındaki müşteriye mesaj gönderdi.
+2025-06-25 11:02:24,562 INFO customer_send_message(515) Müşteri mesajı lLJHhEJxRWd4t0reAAAg odasındaki yetkililere gönderildi.
+2025-06-25 11:02:26,708 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: IhZTl6ULeQovsO0vAAAf
+2025-06-25 11:02:26,710 INFO chat_disconnect(476) Ziyaretçi lLJHhEJxRWd4t0reAAAg sohbetten ayrıldı, adminlere haber verildi.
+2025-06-25 11:02:28,116 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: 4KDQODbT7BF0ep1XAAAi
+2025-06-25 11:02:28,342 INFO admin_join_room(562) Yetkili (tpNaOdRVoeHrAlJoAAAd), müşteri odasına (vZ9rJqAAyK9DCp-7AAAX) katıldı.
+2025-06-25 11:02:28,471 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: UVL8747mT_8yCUwZAAAj
+2025-06-25 11:02:30,804 INFO admin_join_room(562) Yetkili (tpNaOdRVoeHrAlJoAAAd), müşteri odasına (vZ9rJqAAyK9DCp-7AAAX) katıldı.
+2025-06-25 11:02:32,558 INFO close_chat_by_admin(596) admin tarafından Sohbet #12 kapatıldı.
+2025-06-25 11:02:33,219 INFO admin_join_room(562) Yetkili (tpNaOdRVoeHrAlJoAAAd), müşteri odasına (iHT-db8ZJnWPddG-AAAT) katıldı.
+2025-06-25 11:02:33,936 INFO admin_join_room(562) Yetkili (tpNaOdRVoeHrAlJoAAAd), müşteri odasına (iHT-db8ZJnWPddG-AAAT) katıldı.
+2025-06-25 11:02:36,106 INFO close_chat_by_admin(596) admin tarafından Sohbet #11 kapatıldı.
+2025-06-25 11:02:52,874 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: 4KDQODbT7BF0ep1XAAAi
+2025-06-25 11:02:53,219 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: lurSsTEKbwWuSRSLAAAl
+2025-06-25 11:02:53,394 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: pEyZ0Le_axJIw4xtAAAm
+2025-06-25 11:02:54,199 INFO handle_disconnect(457) Kullanıcı ayrıldı: gettoreal, SID: lurSsTEKbwWuSRSLAAAl
+2025-06-25 11:02:54,815 INFO handle_connect(446) Kullanıcı bağlandı: gettoreal, SID: LtX8_Jjq7q3Qms-mAAAo
+2025-06-25 11:02:54,989 INFO chat_connect(465) Ziyaretçi sohbete bağlandı ve kendi odasına katıldı: aAtztpW03fdE7k06AAAp
+2025-06-25 11:14:50,879 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 11:14:53,023 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: daxZg3AkIG5jHN4MAAAE
+2025-06-25 11:14:53,178 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: DRrk6YQ6GDmb0Y5lAAAG
+2025-06-25 11:14:54,246 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: uG3J6Tog_0WMjovsAAAI
+2025-06-25 11:14:55,036 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: v71Jbq8cst0gR9CgAAAL
+2025-06-25 11:14:56,100 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: Tu1q0V54lC_nhCwGAAAN
+2025-06-25 11:15:08,664 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: o61iRxs4q5jJpIE8AAAU
+2025-06-25 11:15:26,639 INFO handle_new_ticket(514) Yeni destek talebi alındı: #1
+2025-06-25 11:15:34,129 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: 6DGaXQAK33KAb2NhAAAY
+2025-06-25 11:15:36,441 INFO admin_join_room(557) Yetkili admin sohbet odasına katıldı: #1
+2025-06-25 11:15:42,069 INFO send_message(591) 'Özgür Taş' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 11:15:47,298 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: sLDPXkiyDO2frNOzAAAc
+2025-06-25 11:15:48,864 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: l1PTW7fan-soieimAAAg
+2025-06-25 11:15:55,062 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: 0XQ0OexTFDJoIUD_AAAk
+2025-06-25 11:15:57,559 INFO send_message(591) 'admin' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 11:15:59,351 INFO send_message(591) 'Özgür Taş' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 11:16:02,734 INFO send_message(591) 'admin' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 11:16:04,732 INFO send_message(591) 'Özgür Taş' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 11:16:06,456 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: QrC7xq5a9d2J4VvKAAAm
+2025-06-25 11:17:37,865 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: -Rh5jCWefBmCzPsfAAAo
+2025-06-25 11:17:53,036 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: BHx80oQOMVQ9fUu_AAAr
+2025-06-25 11:18:08,757 INFO chat_connect(493) Bir istemci /chat kanalına bağlandı: oURoVUjkAcV_WtaFAAAv
+2025-06-25 11:18:49,419 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 11:18:53,988 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: KHP-HiBqEVoLw71gAAAD
+2025-06-25 11:19:01,293 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: aRmg6RSibbNPraIQAAAG
+2025-06-25 11:19:02,024 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: 4_-1anyOBfG_3N3uAAAL
+2025-06-25 11:19:02,179 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: mc3eo-H_C6q4wBw8AAAM
+2025-06-25 11:19:02,336 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: MlnhLYZg_gWzGj-HAAAN
+2025-06-25 11:19:07,861 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: kZgJ0tH76XA3TirbAAAP
+2025-06-25 11:19:34,883 INFO close_chat_by_admin(617) admin tarafından Sohbet #1 kapatıldı.
+2025-06-25 11:19:39,497 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: U36iJ63GNqOlwxJYAAAR
+2025-06-25 11:19:48,319 INFO handle_new_ticket(515) Yeni destek talebi alındı: #2
+2025-06-25 11:19:53,012 INFO customer_joined_chat(535) Müşteri U36iJ63GNqOlwxJYAAAR sohbet odasına katıldı: #2
+2025-06-25 11:19:59,271 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: Z240wRZ7-PaZPK6iAAAV
+2025-06-25 11:20:01,210 INFO send_message(595) 'admin' tarafından Sohbet #2'e mesaj gönderildi.
+2025-06-25 11:20:04,892 INFO send_message(595) 'Özgür Taş' tarafından Sohbet #2'e mesaj gönderildi.
+2025-06-25 11:22:08,621 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 11:22:13,190 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: BYXO3Bx3D4yeBUvSAAAG
+2025-06-25 11:22:13,428 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: Mq7Y1GHic84MhsnDAAAH
+2025-06-25 11:22:16,835 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: YXRWITdIvQTZQVTKAAAI
+2025-06-25 11:22:18,030 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: A0XqwHXaSU0d0FY6AAAL
+2025-06-25 11:22:18,509 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: XXrYaco8Xgkks_udAAAM
+2025-06-25 11:22:19,750 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: mytY9rCbzyoLeO9bAAAO
+2025-06-25 11:22:21,605 INFO close_chat_by_admin(617) admin tarafından Sohbet #2 kapatıldı.
+2025-06-25 11:22:24,940 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: CogGzv-NowXChw1LAAAQ
+2025-06-25 11:22:30,724 INFO handle_new_ticket(515) Yeni destek talebi alındı: #3
+2025-06-25 11:22:42,666 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: Pii9_E7QJnuYuvkcAAAY
+2025-06-25 11:29:01,390 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 11:29:05,038 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: DeJ9T_ft31FLwpW5AAAB
+2025-06-25 11:29:17,897 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: ynWEdkOH6W1KDu0VAAAD
+2025-06-25 11:29:32,753 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: kPEDRBvU_a8OV4-MAAAF
+2025-06-25 11:29:33,049 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: WsOmbK3AsSOikP30AAAH
+2025-06-25 11:29:34,396 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: FrTOA-wPi0O4Vu2HAAAK
+2025-06-25 11:29:39,781 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: oQsQdnyNLVvWToosAAAN
+2025-06-25 11:30:05,113 INFO handle_new_ticket(515) Yeni destek talebi alındı: #1
+2025-06-25 11:30:07,192 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: tzwwCxd8gA8d_MyzAAAU
+2025-06-25 11:30:11,668 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: GOAluGyRzYICWUBQAAAY
+2025-06-25 11:30:13,430 INFO customer_joined_chat(535) Müşteri oQsQdnyNLVvWToosAAAN sohbet odasına katıldı: #1
+2025-06-25 11:30:14,594 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: zM9tdYXXTTxG7HgQAAAc
+2025-06-25 11:30:18,413 INFO send_message(595) 'admin' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 11:30:20,387 INFO send_message(595) 'Özgür Taş' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 15:05:33,971 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 15:05:38,414 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: 9GhgLgBP5gS_AcIKAAAB
+2025-06-25 15:05:46,957 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: 1OL7T5nonY63OmvpAAAD
+2025-06-25 15:06:00,855 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: 0QBkmrlwjI4Qp6oXAAAF
+2025-06-25 15:06:32,060 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: aM_oBonpfFy4xPztAAAM
+2025-06-25 15:09:49,637 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: TFytq1Qe079g0ziPAAAm
+2025-06-25 15:10:47,333 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: -qn0b1sx4rTnscQkAAAo
+2025-06-25 18:36:54,292 INFO <module>(31) Uygulama başlatılıyor...
+2025-06-25 18:36:58,989 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: 4NVHP6frF1CVzE0PAAAB
+2025-06-25 18:37:28,688 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: KxzJvPvcv8CnBDB5AAAD
+2025-06-25 18:37:43,017 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: re2LCLe5cVoV-2jkAAAF
+2025-06-25 18:37:44,117 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: 6NVCa8HQr0RjlivuAAAH
+2025-06-25 18:38:01,313 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: ECaGwQCF9laU5iIYAAAM
+2025-06-25 18:38:02,365 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: RmJRvWa7eBBdXd9uAAAO
+2025-06-25 18:38:08,073 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: pJYWLeWJYzUuz_Q7AAAQ
+2025-06-25 18:38:12,322 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: tBvFmMHdR1HF11q2AAAT
+2025-06-25 18:38:29,034 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: z5G3D1TrJjfxRnBgAAAZ
+2025-06-25 18:38:55,964 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: X946tLxEGKWHRJwPAAAg
+2025-06-25 18:39:01,991 INFO handle_new_ticket(515) Yeni destek talebi alındı: #1
+2025-06-25 18:39:06,189 INFO customer_joined_chat(535) Müşteri z5G3D1TrJjfxRnBgAAAZ sohbet odasına katıldı: #1
+2025-06-25 18:39:06,890 INFO chat_connect(494) Bir istemci /chat kanalına bağlandı: dl2PaQ6UDkeXB6fgAAAk
+2025-06-25 18:39:10,786 INFO send_message(595) 'Özgür Taş' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 18:39:14,899 INFO send_message(595) 'Özgür Taş' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 18:39:17,794 INFO send_message(595) 'admin' tarafından Sohbet #1'e mesaj gönderildi.
+2025-06-25 22:14:26,316 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID p0SJ7tDlBlBjcTjIAAAC
+2025-06-25 22:14:30,851 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID bgFIK9ODZdhXkomFAAAF
+2025-06-25 22:14:33,901 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID fo8oa3fFWUzu60DdAAAI
+2025-06-25 22:14:46,039 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID WEAKy4b_P012N6j4AAAK
+2025-06-25 22:14:50,527 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID fvzsZk1zkHkBJeoKAAAM
+2025-06-25 22:14:52,358 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 5MbNCQ97zhQbH_IGAAAO
+2025-06-25 22:15:09,573 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID CH25UeIDaCXZAKSTAAAT
+2025-06-25 22:15:09,575 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:15:18,231 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID _L5LcK4BFqN9qETlAAAW
+2025-06-25 22:15:31,532 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID U6-24ooYcClEDZ-ZAAAZ
+2025-06-25 22:15:31,535 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:15:33,331 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID iZm2IsDa2hTzhOpuAAAc
+2025-06-25 22:15:33,332 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:15:34,362 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID furlXK2pZt7nUR1-AAAf
+2025-06-25 22:15:34,364 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:15:35,342 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID fAwkjGN25r2JElj2AAAi
+2025-06-25 22:15:35,343 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:33:04,805 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID Wjdya2tcPt5Fjwi2AAAC
+2025-06-25 22:33:05,592 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID sViMLSDSLItp0fmUAAAG
+2025-06-25 22:33:05,594 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:33:05,895 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID eo1uQDt-UIuwavn9AAAI
+2025-06-25 22:33:06,441 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID Fk_n2-C3Lvh_4Bj4AAAL
+2025-06-25 22:33:26,307 ERROR log_exception(875) Exception on /support/live-chat [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: support_ticket.customer_sid
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 62, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 433, in support_live_chat
+    SupportTicket.created_at.asc()).all()
+                                    ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: support_ticket.customer_sid
+[SQL: SELECT support_ticket.id AS support_ticket_id, support_ticket.customer_sid AS support_ticket_customer_sid, support_ticket.customer_name AS support_ticket_customer_name, support_ticket.customer_email AS support_ticket_customer_email, support_ticket.subject AS support_ticket_subject, support_ticket.status AS support_ticket_status, support_ticket.created_at AS support_ticket_created_at 
+FROM support_ticket 
+WHERE support_ticket.status = ? ORDER BY support_ticket.created_at ASC]
+[parameters: ('Pending',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-25 22:33:27,427 ERROR log_exception(875) Exception on /support/live-chat [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: support_ticket.customer_sid
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 62, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 433, in support_live_chat
+    SupportTicket.created_at.asc()).all()
+                                    ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: support_ticket.customer_sid
+[SQL: SELECT support_ticket.id AS support_ticket_id, support_ticket.customer_sid AS support_ticket_customer_sid, support_ticket.customer_name AS support_ticket_customer_name, support_ticket.customer_email AS support_ticket_customer_email, support_ticket.subject AS support_ticket_subject, support_ticket.status AS support_ticket_status, support_ticket.created_at AS support_ticket_created_at 
+FROM support_ticket 
+WHERE support_ticket.status = ? ORDER BY support_ticket.created_at ASC]
+[parameters: ('Pending',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-25 22:33:33,236 ERROR log_exception(875) Exception on /support/live-chat [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: support_ticket.customer_sid
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 62, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 433, in support_live_chat
+    SupportTicket.created_at.asc()).all()
+                                    ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: support_ticket.customer_sid
+[SQL: SELECT support_ticket.id AS support_ticket_id, support_ticket.customer_sid AS support_ticket_customer_sid, support_ticket.customer_name AS support_ticket_customer_name, support_ticket.customer_email AS support_ticket_customer_email, support_ticket.subject AS support_ticket_subject, support_ticket.status AS support_ticket_status, support_ticket.created_at AS support_ticket_created_at 
+FROM support_ticket 
+WHERE support_ticket.status = ? ORDER BY support_ticket.created_at ASC]
+[parameters: ('Pending',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-25 22:33:46,137 ERROR log_exception(875) Exception on /support/live-chat [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such column: support_ticket.customer_sid
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 62, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 433, in support_live_chat
+    SupportTicket.created_at.asc()).all()
+                                    ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2704, in all
+    return self._iter().all()  # type: ignore
+           ^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/query.py", line 2857, in _iter
+    result: Union[ScalarResult[_T], Result[_T]] = self.session.execute(
+                                                  ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2365, in execute
+    return self._execute_internal(
+           ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/session.py", line 2251, in _execute_internal
+    result: Result[Any] = compile_state_cls.orm_execute_statement(
+                          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/orm/context.py", line 306, in orm_execute_statement
+    result = conn.execute(
+             ^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1415, in execute
+    return meth(
+           ^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/sql/elements.py", line 523, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1637, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1842, in _execute_context
+    return self._exec_single_context(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1982, in _exec_single_context
+    self._handle_dbapi_exception(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 2351, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/base.py", line 1963, in _exec_single_context
+    self.dialect.do_execute(
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/sqlalchemy/engine/default.py", line 943, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such column: support_ticket.customer_sid
+[SQL: SELECT support_ticket.id AS support_ticket_id, support_ticket.customer_sid AS support_ticket_customer_sid, support_ticket.customer_name AS support_ticket_customer_name, support_ticket.customer_email AS support_ticket_customer_email, support_ticket.subject AS support_ticket_subject, support_ticket.status AS support_ticket_status, support_ticket.created_at AS support_ticket_created_at 
+FROM support_ticket 
+WHERE support_ticket.status = ? ORDER BY support_ticket.created_at ASC]
+[parameters: ('Pending',)]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2025-06-25 22:35:21,630 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID YPfL9iC2GeEGRvisAAAB
+2025-06-25 22:35:22,417 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID MALw5S0xz924BfbbAAAE
+2025-06-25 22:35:23,070 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID QIDcY6zYe_J6n_2CAAAG
+2025-06-25 22:35:28,591 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID UpsHJvU0ARfJ1L7cAAAN
+2025-06-25 22:35:28,593 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:35:41,569 INFO handle_new_ticket(519) Yeni destek talebi alındı: #1
+2025-06-25 22:35:43,697 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID UpsHJvU0ARfJ1L7cAAAN
+2025-06-25 22:35:44,194 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID KWcdmmC-tsHLzIwHAAAQ
+2025-06-25 22:35:44,196 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:35:44,980 INFO send_message(583) 'mehmet özer' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 22:35:47,914 INFO send_message(583) 'admin' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 22:35:50,464 INFO send_message(583) 'mehmet özer' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 22:35:52,504 INFO send_message(583) 'admin' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 22:35:54,216 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID KWcdmmC-tsHLzIwHAAAQ
+2025-06-25 22:35:54,718 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID Ep2SWvkmFopHqPDCAAAT
+2025-06-25 22:35:54,719 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:35:57,141 INFO chat_disconnect(489) Müşteri mehmet özer, #1 nolu sohbetten ayrıldı.
+2025-06-25 22:35:57,513 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID kPqvOcvh_Co_CnStAAAV
+2025-06-25 22:47:22,437 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID -aa278-sOlnBAYxJAAAF
+2025-06-25 22:47:22,617 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID Drh0QEPUC_gJwmifAAAH
+2025-06-25 22:47:22,619 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:47:22,620 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID QTG7fwfeBrAGlP9lAAAI
+2025-06-25 22:47:22,741 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID dhPjp70YtbdtIa0XAAAJ
+2025-06-25 22:47:26,092 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID LfY1F7Yv0Kh5c6suAAAL
+2025-06-25 22:47:32,382 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID Drh0QEPUC_gJwmifAAAH
+2025-06-25 22:47:32,901 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID Mf9pLq4JsaIbd5hZAAAO
+2025-06-25 22:47:32,903 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:47:35,765 INFO close_chat(601) 'admin' tarafından Talep #1 kapatıldı.
+2025-06-25 22:47:47,577 INFO handle_new_ticket(519) Yeni destek talebi alındı: #2
+2025-06-25 22:47:49,455 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID Mf9pLq4JsaIbd5hZAAAO
+2025-06-25 22:47:49,982 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 0g-dkN2HnA4zTWp9AAAR
+2025-06-25 22:47:49,983 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:47:53,159 INFO send_message(585) 'admin' tarafından Talep #2'e mesaj gönderildi.
+2025-06-25 22:47:56,902 INFO send_message(585) 'mehmet özer' tarafından Talep #2'e mesaj gönderildi.
+2025-06-25 22:47:58,972 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID 0g-dkN2HnA4zTWp9AAAR
+2025-06-25 22:47:59,484 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID EqY1GRyd57BUie_yAAAU
+2025-06-25 22:47:59,486 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:48:01,439 INFO chat_disconnect(489) Müşteri mehmet özer, #2 nolu sohbetten ayrıldı.
+2025-06-25 22:48:01,913 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID DreRn_baUbVRaDefAAAW
+2025-06-25 22:48:06,114 INFO chat_disconnect(489) Müşteri mehmet özer, #2 nolu sohbetten ayrıldı.
+2025-06-25 22:48:06,491 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID sNL6dJifgmOwVPHgAAAY
+2025-06-25 22:48:41,258 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID DJ8C_YveSmvEoMGcAAAe
+2025-06-25 22:48:46,201 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID DJ8C_YveSmvEoMGcAAAe
+2025-06-25 22:49:23,846 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID -aa278-sOlnBAYxJAAAF
+2025-06-25 22:49:24,923 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID QTG7fwfeBrAGlP9lAAAI
+2025-06-25 22:49:26,690 INFO chat_disconnect(489) Müşteri mehmet özer, #2 nolu sohbetten ayrıldı.
+2025-06-25 22:49:29,765 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID m-PNuq3lPblNsq_mAAAg
+2025-06-25 22:49:31,042 INFO chat_disconnect(489) Müşteri mehmet özer, #2 nolu sohbetten ayrıldı.
+2025-06-25 22:49:31,416 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID dd5oW8hr3brLCJO5AAAi
+2025-06-25 22:49:35,020 INFO send_message(585) 'mehmet özer' tarafından Talep #2'e mesaj gönderildi.
+2025-06-25 22:49:37,770 INFO send_message(585) 'admin' tarafından Talep #2'e mesaj gönderildi.
+2025-06-25 22:49:40,480 INFO chat_disconnect(489) Müşteri mehmet özer, #2 nolu sohbetten ayrıldı.
+2025-06-25 22:49:40,857 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID wbrHuyTYL-G8jkZMAAAk
+2025-06-25 22:56:22,577 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID n2MgsUP0OAih7J4EAAAB
+2025-06-25 22:56:23,408 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID fA_WnMKUmQlWNKBvAAAD
+2025-06-25 22:56:23,732 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID qSwzZSiBM6whOr28AAAF
+2025-06-25 22:56:24,567 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID cV_iM3NHHRwT82sLAAAI
+2025-06-25 22:56:24,570 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:56:40,851 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID cV_iM3NHHRwT82sLAAAI
+2025-06-25 22:56:41,366 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 4P32U8p6Owb-SCqnAAAL
+2025-06-25 22:56:41,368 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:56:43,671 INFO close_chat(609) 'admin' tarafından Talep #2 kapatıldı.
+2025-06-25 22:56:44,901 INFO handle_new_ticket(519) Yeni destek talebi alındı: #3
+2025-06-25 22:56:46,742 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID 4P32U8p6Owb-SCqnAAAL
+2025-06-25 22:56:47,309 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 0XUb9p6OusAPFX_rAAAO
+2025-06-25 22:56:47,313 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:56:51,346 INFO send_message(581) 'admin' tarafından Talep #3'e mesaj gönderildi.
+2025-06-25 22:56:54,578 INFO send_message(581) 'mehmet özeren' tarafından Talep #3'e mesaj gönderildi.
+2025-06-25 22:57:00,124 INFO chat_disconnect(489) Müşteri mehmet özeren, #3 nolu sohbetten ayrıldı.
+2025-06-25 22:57:00,516 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID WtuuaOi9vLFadUh-AAAQ
+2025-06-25 22:57:04,082 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID 0XUb9p6OusAPFX_rAAAO
+2025-06-25 22:57:04,597 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID n579wTTQJnNzaCHZAAAT
+2025-06-25 22:57:04,598 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:57:07,923 INFO close_chat(609) 'mehmet özeren' tarafından Talep #3 kapatıldı.
+2025-06-25 22:57:12,365 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID WtuuaOi9vLFadUh-AAAQ
+2025-06-25 22:57:12,743 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID TR6_u0VnT2ss2bXxAAAV
+2025-06-25 22:57:15,067 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID n579wTTQJnNzaCHZAAAT
+2025-06-25 22:57:15,587 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 5CIvQ6KFpbrMiHjrAAAY
+2025-06-25 22:57:15,589 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 22:57:27,434 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID fA_WnMKUmQlWNKBvAAAD
+2025-06-25 22:58:15,797 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID 5CIvQ6KFpbrMiHjrAAAY
+2025-06-25 23:02:00,232 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID e3K9hpSAbMpPOTllAAAB
+2025-06-25 23:02:01,431 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 2lR1Uf58SPoW-HRkAAAD
+2025-06-25 23:02:02,988 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID wF_w2Ae1AdS7iDQ4AAAF
+2025-06-25 23:02:16,526 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID A7_CQiH5dqPSdpSwAAAH
+2025-06-25 23:02:29,405 INFO handle_new_ticket(519) Yeni destek talebi alındı: #4
+2025-06-25 23:02:31,700 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID A7_CQiH5dqPSdpSwAAAH
+2025-06-25 23:02:32,045 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID coRtrhGPoG5eH9-QAAAJ
+2025-06-25 23:02:48,305 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID coRtrhGPoG5eH9-QAAAJ
+2025-06-25 23:02:50,483 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID F061KnWTFQc6mKMYAAAO
+2025-06-25 23:02:50,484 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:02:51,732 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID F061KnWTFQc6mKMYAAAO
+2025-06-25 23:02:52,266 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID Ydp0GHbNC_TM6-A9AAAR
+2025-06-25 23:02:52,268 INFO chat_connect(477) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:02:53,556 INFO send_message(585) 'mehmet özer' tarafından Talep #4'e mesaj gönderildi.
+2025-06-25 23:02:57,600 INFO send_message(585) 'admin' tarafından Talep #4'e mesaj gönderildi.
+2025-06-25 23:03:00,082 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID e3K9hpSAbMpPOTllAAAB
+2025-06-25 23:03:02,964 INFO send_message(585) 'admin' tarafından Talep #4'e mesaj gönderildi.
+2025-06-25 23:03:04,101 INFO send_message(585) 'admin' tarafından Talep #4'e mesaj gönderildi.
+2025-06-25 23:03:06,916 INFO send_message(585) 'mehmet özer' tarafından Talep #4'e mesaj gönderildi.
+2025-06-25 23:03:08,546 INFO send_message(585) 'mehmet özer' tarafından Talep #4'e mesaj gönderildi.
+2025-06-25 23:03:13,224 INFO close_chat(612) 'mehmet özer' tarafından Talep #4 kapatıldı.
+2025-06-25 23:03:19,798 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID wF_w2Ae1AdS7iDQ4AAAF
+2025-06-25 23:03:20,182 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID oxuXECH9SXU9oGELAAAT
+2025-06-25 23:03:37,730 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID oxuXECH9SXU9oGELAAAT
+2025-06-25 23:03:38,079 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID NL71tzpo-g8L3BdVAAAV
+2025-06-25 23:03:39,582 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID NL71tzpo-g8L3BdVAAAV
+2025-06-25 23:03:39,970 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID aLioPPznc8MQ1AOjAAAX
+2025-06-25 23:03:42,660 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID aLioPPznc8MQ1AOjAAAX
+2025-06-25 23:03:43,037 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID jcRFrmqykI2GaUWPAAAZ
+2025-06-25 23:03:44,258 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID xl1QhjSbyIPuraWYAAAb
+2025-06-25 23:03:51,457 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID xl1QhjSbyIPuraWYAAAb
+2025-06-25 23:03:51,949 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID KV8VbtpMFTm_QxMtAAAe
+2025-06-25 23:03:55,270 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID KV8VbtpMFTm_QxMtAAAe
+2025-06-25 23:03:55,806 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID o7Y7aO2wwdZLadXgAAAh
+2025-06-25 23:03:58,058 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID Ydp0GHbNC_TM6-A9AAAR
+2025-06-25 23:04:45,130 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID jcRFrmqykI2GaUWPAAAZ
+2025-06-25 23:05:10,512 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID o7Y7aO2wwdZLadXgAAAh
+2025-06-25 23:05:11,004 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID nzs3eKeA6dvBs2_dAAAu
+2025-06-25 23:05:13,956 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID nzs3eKeA6dvBs2_dAAAu
+2025-06-25 23:05:14,484 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID qlQXhrlmIuDbebygAAAx
+2025-06-25 23:05:15,299 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID qlQXhrlmIuDbebygAAAx
+2025-06-25 23:05:15,823 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID ZtP-KKYjGWOFRf3gAAA0
+2025-06-25 23:05:44,136 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID ZtP-KKYjGWOFRf3gAAA0
+2025-06-25 23:05:44,621 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID dvAY7B_qzL31-8UyAAA7
+2025-06-25 23:05:46,063 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID dvAY7B_qzL31-8UyAAA7
+2025-06-25 23:05:46,585 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID dRFfqBd8LTlqEqFVAAA-
+2025-06-25 23:05:47,792 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID dRFfqBd8LTlqEqFVAAA-
+2025-06-25 23:05:48,159 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID cgns4Q1qkwIXXxK3AABB
+2025-06-25 23:05:49,464 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID oWMCN7wy3rAhgksZAABE
+2025-06-25 23:05:50,856 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID oWMCN7wy3rAhgksZAABE
+2025-06-25 23:05:51,218 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 1P0JGym-bQVc1JK8AABH
+2025-06-25 23:05:54,797 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID 1P0JGym-bQVc1JK8AABH
+2025-06-25 23:05:55,322 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID Sa2EbIQ0mI3R7qbPAABK
+2025-06-25 23:05:57,204 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID Sa2EbIQ0mI3R7qbPAABK
+2025-06-25 23:05:57,737 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID h0kIfAIr92Gw1A-qAABN
+2025-06-25 23:06:50,173 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID cgns4Q1qkwIXXxK3AABB
+2025-06-25 23:07:14,579 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID hcwx6EEWPc7zUfJpAAAE
+2025-06-25 23:07:15,196 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID CJ__CYVFOmem2EvkAAAH
+2025-06-25 23:07:16,800 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID hcwx6EEWPc7zUfJpAAAE
+2025-06-25 23:07:17,376 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID 4MwifiYlirP-khxcAAAK
+2025-06-25 23:08:00,558 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID 4MwifiYlirP-khxcAAAK
+2025-06-25 23:08:01,078 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID aBm2qO_J8Hvv-I77AAAV
+2025-06-25 23:08:29,056 INFO chat_disconnect(493) Bir istemci /chat kanalından ayrıldı: SID aBm2qO_J8Hvv-I77AAAV
+2025-06-25 23:08:29,601 INFO chat_connect(472) Bir istemci /chat kanalına bağlandı: SID cIvPQ4rIbKc_JYfMAAAg
+2025-06-25 23:14:41,786 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID CT70QcOftT0NJIUbAAAC
+2025-06-25 23:14:42,558 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID En2a6UPvji3mTTa_AAAF
+2025-06-25 23:15:31,220 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID En2a6UPvji3mTTa_AAAF
+2025-06-25 23:15:31,732 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID 7xmxrtrUH1k2b8GEAAAK
+2025-06-25 23:15:33,308 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID 7xmxrtrUH1k2b8GEAAAK
+2025-06-25 23:15:33,825 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID 3RG3gqBErm0j-AjhAAAN
+2025-06-25 23:15:36,867 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID 3RG3gqBErm0j-AjhAAAN
+2025-06-25 23:15:37,378 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID 4y3_V-Oir0lWa6q7AAAQ
+2025-06-25 23:17:04,980 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID 4y3_V-Oir0lWa6q7AAAQ
+2025-06-25 23:17:05,511 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID KEO6uGlH9330df99AAAl
+2025-06-25 23:17:06,155 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID KEO6uGlH9330df99AAAl
+2025-06-25 23:17:06,688 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID qBg4x_N9PfrrndCGAAAo
+2025-06-25 23:17:07,848 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID gRFhv_IASNLOqQnGAAAr
+2025-06-25 23:17:09,223 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID Iq7xUT9slvRyW_K1AAAu
+2025-06-25 23:17:13,923 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID Iq7xUT9slvRyW_K1AAAu
+2025-06-25 23:17:14,464 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID fj5VnILfG6zbAp2wAAAx
+2025-06-25 23:17:32,791 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID fj5VnILfG6zbAp2wAAAx
+2025-06-25 23:17:33,330 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID NK8Kd86yLTUe_5Y3AAA4
+2025-06-25 23:17:34,399 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID 4szXkk_8smCrMRy4AAA7
+2025-06-25 23:17:35,207 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID 4szXkk_8smCrMRy4AAA7
+2025-06-25 23:17:51,831 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID voCtckN1NECSb5B0AABA
+2025-06-25 23:17:52,791 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID voCtckN1NECSb5B0AABA
+2025-06-25 23:17:53,357 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID FOObYQ2hKjmcB2hAAABD
+2025-06-25 23:18:04,887 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID qBg4x_N9PfrrndCGAAAo
+2025-06-25 23:18:08,226 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID gRFhv_IASNLOqQnGAAAr
+2025-06-25 23:18:30,415 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID rjov6cQEaG2qE63CAAAE
+2025-06-25 23:18:30,785 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID gTBuOXMppNmaBbm0AAAG
+2025-06-25 23:18:32,679 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID rjov6cQEaG2qE63CAAAE
+2025-06-25 23:18:33,028 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID dB89U-iUFFM6Cl-8AAAI
+2025-06-25 23:18:35,280 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID dB89U-iUFFM6Cl-8AAAI
+2025-06-25 23:18:35,622 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID U7AJZNV6Vp-y3az3AAAK
+2025-06-25 23:18:43,160 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID U7AJZNV6Vp-y3az3AAAK
+2025-06-25 23:18:43,653 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID 36xYE3h6zf3GZffVAAAN
+2025-06-25 23:18:57,769 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID 36xYE3h6zf3GZffVAAAN
+2025-06-25 23:19:02,757 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID b9BkNk3XHTzTFZClAAAU
+2025-06-25 23:19:03,729 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID b9BkNk3XHTzTFZClAAAU
+2025-06-25 23:19:04,248 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID B6xMOMYqBFGRz9uOAAAX
+2025-06-25 23:20:01,159 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID 1uCAvqDFdr8qZ4vvAAAC
+2025-06-25 23:20:02,340 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID 8LW-kb8ElyAuPUBcAAAH
+2025-06-25 23:20:02,922 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID O7u5MElYqqK_qry9AAAK
+2025-06-25 23:20:05,241 INFO chat_disconnect(513) Bir istemci /chat kanalından ayrıldı: SID 8LW-kb8ElyAuPUBcAAAH
+2025-06-25 23:20:05,877 INFO chat_connect(492) Bir istemci /chat kanalına bağlandı: SID AdtqKINabl4ZNU7TAAAN
+2025-06-25 23:26:59,895 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID NHFnq4l2dZArLcK0AAAB
+2025-06-25 23:27:01,207 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID Bs7CpxuCpKg9wWwnAAAE
+2025-06-25 23:27:01,577 INFO chat_disconnect(535) Bir istemci /chat kanalından ayrıldı: SID NHFnq4l2dZArLcK0AAAB
+2025-06-25 23:27:01,898 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID ujynkaUd4ihOJn4lAAAH
+2025-06-25 23:27:08,417 INFO chat_disconnect(535) Bir istemci /chat kanalından ayrıldı: SID ujynkaUd4ihOJn4lAAAH
+2025-06-25 23:27:09,027 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID 39yMLrxQiGkZz7k-AAAK
+2025-06-25 23:27:26,397 INFO chat_disconnect(535) Bir istemci /chat kanalından ayrıldı: SID 39yMLrxQiGkZz7k-AAAK
+2025-06-25 23:27:27,052 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID HatvKy53cYsmMb3lAAAR
+2025-06-25 23:27:33,827 INFO chat_disconnect(535) Bir istemci /chat kanalından ayrıldı: SID HatvKy53cYsmMb3lAAAR
+2025-06-25 23:27:34,311 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID WT3H3iAHyH47a-55AAAU
+2025-06-25 23:27:35,658 INFO chat_disconnect(535) Bir istemci /chat kanalından ayrıldı: SID WT3H3iAHyH47a-55AAAU
+2025-06-25 23:27:36,282 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID tQpD441SUKi-LyiqAAAX
+2025-06-25 23:29:22,075 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID gEpjtStfwDzU19jGAAAC
+2025-06-25 23:29:22,982 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID ys3GadgQB2gLN_-MAAAF
+2025-06-25 23:29:24,849 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID BivbMwgWQyFljTtzAAAK
+2025-06-25 23:29:26,113 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID OGF8Jqo1isl3Y1MLAAAN
+2025-06-25 23:29:34,616 ERROR log_exception(875) Exception on /admin/bildirim/gonder [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 48, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 428, in send_notification
+    if recipient_user.id in user_sids:
+                            ^^^^^^^^^
+NameError: name 'user_sids' is not defined
+2025-06-25 23:29:38,230 ERROR log_exception(875) Exception on /admin/bildirim/gonder [POST]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 48, in decorated_function
+    return f(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 428, in send_notification
+    if recipient_user.id in user_sids:
+                            ^^^^^^^^^
+NameError: name 'user_sids' is not defined
+2025-06-25 23:30:03,752 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID LZCR9_mXg7JNvAXxAAAU
+2025-06-25 23:30:12,654 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID ypGvo-NQosiVoECcAAAX
+2025-06-25 23:30:14,779 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID vCC79EQtaX7LkxjVAAAa
+2025-06-25 23:37:10,047 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID e8UjuUOJYA0DuUyYAAAl
+2025-06-25 23:37:10,049 INFO chat_connect(519) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:37:21,623 INFO handle_new_ticket(561) Yeni destek talebi alındı: #1
+2025-06-25 23:37:24,508 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID e58RG1lVBExJ1xItAAAo
+2025-06-25 23:37:24,509 INFO chat_connect(519) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:37:33,979 INFO chat_connect(514) Bir istemci /chat kanalına bağlandı: SID eYgFnYu-YZGQcIq1AAAr
+2025-06-25 23:37:38,597 INFO send_message(627) 'admin' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 23:38:20,199 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: P85NkAJwQeLc8lf-AAAB
+2025-06-25 23:38:20,361 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID QtspViw9d0tFSwg9AAAC
+2025-06-25 23:38:22,193 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: admin, SID: djs6wxz3Hv9hFJqBAAAE
+2025-06-25 23:38:22,358 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID TjAn79SomJyQOODZAAAF
+2025-06-25 23:38:22,359 INFO chat_connect(527) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:38:23,157 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: JZmLN7_wQPyjpyzMAAAH
+2025-06-25 23:38:23,325 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID NAqpXAxl0bmWWEqSAAAI
+2025-06-25 23:39:25,520 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: -NEepsqtHIFXI9IAAAAB
+2025-06-25 23:39:26,183 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: 1Xit_sI7XKUy6e8AAAAD
+2025-06-25 23:39:26,351 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID lURP3ebkQpch1rvjAAAE
+2025-06-25 23:39:27,173 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: G1ysfqn_97UqZiMQAAAH
+2025-06-25 23:39:27,201 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: admin, SID: B39sl2JpE5r-bilAAAAI
+2025-06-25 23:39:27,339 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID hIy9Bww5shEbqC33AAAJ
+2025-06-25 23:39:27,370 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID sh9WklL0VAojXdefAAAK
+2025-06-25 23:39:27,372 INFO chat_connect(527) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:39:35,192 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: admin, SID: wUxkLcSMoQodw16TAAAB
+2025-06-25 23:39:35,357 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID -obD5Gp7uHdHDjjeAAAD
+2025-06-25 23:39:35,358 INFO chat_connect(527) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:39:35,475 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: 4bvJogNDKuZbfEdHAAAF
+2025-06-25 23:39:35,528 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: -ALkHY183k7KF5_GAAAG
+2025-06-25 23:39:35,644 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID -z3oBYZ6SHL4M7tJAAAH
+2025-06-25 23:39:35,697 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID WYeRsIrDvF_a-cazAAAI
+2025-06-25 23:39:37,295 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: -3oz_To1y_ZO8TGCAAAK
+2025-06-25 23:39:37,460 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID SM3kLKCppKWGMpMAAAAL
+2025-06-25 23:39:45,331 INFO handle_disconnect(515) Kullanıcı ana namespace'den ayrıldı: gettoreal, SID: -3oz_To1y_ZO8TGCAAAK
+2025-06-25 23:39:45,336 INFO chat_disconnect(539) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:39:45,708 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: ix6xD9U93qvqTLEAAAAN
+2025-06-25 23:39:45,888 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID w5VUYxH4AeAPyGqVAAAO
+2025-06-25 23:39:55,528 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID U6h1sRXAtbxHcDDuAAAQ
+2025-06-25 23:40:22,439 INFO handle_new_ticket(569) Yeni destek talebi alındı: #2
+2025-06-25 23:40:23,048 INFO handle_disconnect(515) Kullanıcı ana namespace'den ayrıldı: gettoreal, SID: -ALkHY183k7KF5_GAAAG
+2025-06-25 23:40:23,050 INFO chat_disconnect(543) Bir istemci /chat kanalından ayrıldı: SID WYeRsIrDvF_a-cazAAAI
+2025-06-25 23:40:24,852 INFO handle_disconnect(515) Kullanıcı ana namespace'den ayrıldı: admin, SID: wUxkLcSMoQodw16TAAAB
+2025-06-25 23:40:24,854 INFO chat_disconnect(543) Bir istemci /chat kanalından ayrıldı: SID -obD5Gp7uHdHDjjeAAAD
+2025-06-25 23:40:25,199 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: admin, SID: bbK6-Pbd0Fuf5pOLAAAS
+2025-06-25 23:40:25,363 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID B95zX9DRgh0q72XoAAAT
+2025-06-25 23:40:25,364 INFO chat_connect(527) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:40:29,182 INFO send_message(635) 'admin' tarafından Talep #2'e mesaj gönderildi.
+2025-06-25 23:42:24,242 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: admin, SID: nwuW_st62HFlwQ8yAAAB
+2025-06-25 23:42:24,424 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID UFbIDhx3AM8ELjMIAAAC
+2025-06-25 23:42:24,426 INFO chat_connect(527) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:42:25,914 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: qs57bHh5CJzAoxh1AAAF
+2025-06-25 23:42:26,077 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID Ig7auJGpORDRrOXfAAAH
+2025-06-25 23:42:26,191 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID Jf2-Uz8GmLNf1Kf2AAAI
+2025-06-25 23:42:26,632 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: gettoreal, SID: vtPa2JYNbOqUs974AAAK
+2025-06-25 23:42:26,806 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID wg7fsgEBsvt_djAdAAAL
+2025-06-25 23:42:30,335 INFO send_message(635) 'mehmet özeren' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 23:42:33,638 INFO chat_disconnect(543) Bir istemci /chat kanalından ayrıldı: SID Jf2-Uz8GmLNf1Kf2AAAI
+2025-06-25 23:42:35,750 INFO handle_disconnect(515) Kullanıcı ana namespace'den ayrıldı: admin, SID: nwuW_st62HFlwQ8yAAAB
+2025-06-25 23:42:35,753 INFO chat_disconnect(543) Bir istemci /chat kanalından ayrıldı: SID UFbIDhx3AM8ELjMIAAAC
+2025-06-25 23:42:36,103 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: admin, SID: qktIrKkpMDSk6YWHAAAN
+2025-06-25 23:42:36,267 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID TJxWysCH7B55dg0IAAAO
+2025-06-25 23:42:36,269 INFO chat_connect(527) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:42:42,415 INFO send_message(635) 'mehmet özeren' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 23:42:44,053 INFO send_message(635) 'admin' tarafından Talep #1'e mesaj gönderildi.
+2025-06-25 23:42:52,546 INFO handle_disconnect(515) Kullanıcı ana namespace'den ayrıldı: admin, SID: qktIrKkpMDSk6YWHAAAN
+2025-06-25 23:42:52,548 INFO chat_disconnect(543) Bir istemci /chat kanalından ayrıldı: SID TJxWysCH7B55dg0IAAAO
+2025-06-25 23:42:52,900 INFO handle_connect(501) Kullanıcı ana namespace'e bağlandı: admin, SID: iIE2YA_YMyDqc9xWAAAQ
+2025-06-25 23:42:53,073 INFO chat_connect(522) Bir istemci /chat kanalına bağlandı: SID BtO4syFhYOzTV1kGAAAR
+2025-06-25 23:42:53,074 INFO chat_connect(527) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:48:43,119 INFO chat_connect(514) Yetkili admin, support_team odasına katıldı.
+2025-06-25 23:48:44,888 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:48:51,334 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:55:48,815 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:55:50,333 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:55:51,869 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:55:53,305 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:55:54,752 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-25 23:56:03,773 INFO chat_disconnect(526) Müşteri mehmet özeren, #1 nolu sohbetten ayrıldı.
+2025-06-26 22:05:44,429 ERROR log_exception(875) Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 105, in index
+    return render_template('index.html', title='Ana Sayfa', products=products)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/workspace/templates/base.html", line 181, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/templates/index.html", line 66, in block 'content'
+    <form action="{{ url_for('buy_product', product_id=product.id) }}" method="POST" class="d-inline">
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/werkzeug/routing/map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'buy_product' with values ['product_id']. Did you mean 'new_product' instead?
+2025-06-26 22:06:00,513 ERROR log_exception(875) Exception on / [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 105, in index
+    return render_template('index.html', title='Ana Sayfa', products=products)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/index.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/workspace/templates/base.html", line 181, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/templates/index.html", line 66, in block 'content'
+    <form action="{{ url_for('buy_product', product_id=product.id) }}" method="POST" class="d-inline">
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1121, in url_for
+    return self.handle_url_build_error(error, endpoint, values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1110, in url_for
+    rv = url_adapter.build(  # type: ignore[union-attr]
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/werkzeug/routing/map.py", line 924, in build
+    raise BuildError(endpoint, values, method, self)
+werkzeug.routing.exceptions.BuildError: Could not build url for endpoint 'buy_product' with values ['product_id']. Did you mean 'new_product' instead?
+2025-06-26 22:17:39,717 ERROR log_exception(875) Exception on /sepetim [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 197, in cart
+    return render_template('cart.html',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/cart.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/workspace/templates/base.html", line 181, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/templates/cart.html", line 21, in block 'content'
+    <td class="text-end">{{ "%.2f"|format(item.price) }} TL</td>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/filters.py", line 1043, in do_format
+    return soft_str(value) % (kwargs or args)
+           ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'price'
+2025-06-26 22:23:22,997 ERROR log_exception(875) Exception on /sepetim [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 197, in cart
+    return render_template('cart.html',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/cart.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/workspace/templates/base.html", line 181, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/templates/cart.html", line 21, in block 'content'
+    <td class="text-end">{{ "%.2f"|format(item.price) }} TL</td>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/filters.py", line 1043, in do_format
+    return soft_str(value) % (kwargs or args)
+           ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+jinja2.exceptions.UndefinedError: 'dict object' has no attribute 'price'
+2025-06-26 22:24:34,340 ERROR log_exception(875) Exception on /onayla [GET]
+Traceback (most recent call last):
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 1511, in wsgi_app
+    response = self.full_dispatch_request()
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 919, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 917, in full_dispatch_request
+    rv = self.dispatch_request()
+         ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/app.py", line 902, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)  # type: ignore[no-any-return]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask_login/utils.py", line 290, in decorated_view
+    return current_app.ensure_sync(func)(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/main.py", line 243, in checkout
+    return render_template('checkout.html',
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 150, in render_template
+    return _render(app, template, context)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/flask/templating.py", line 131, in _render
+    rv = template.render(context)
+         ^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 1295, in render
+    self.environment.handle_exception()
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 942, in handle_exception
+    raise rewrite_traceback_stack(source=source)
+  File "/home/runner/workspace/templates/checkout.html", line 1, in top-level template code
+    {% extends "base.html" %}
+  File "/home/runner/workspace/templates/base.html", line 181, in top-level template code
+    {% block content %}{% endblock %}
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/templates/checkout.html", line 12, in block 'content'
+    <span>{{ product.name }} ({{ product.billing_cycle }})</span>
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/runner/workspace/.pythonlibs/lib/python3.11/site-packages/jinja2/environment.py", line 490, in getattr
+    return getattr(obj, attribute)
+           ^^^^^^^^^^^^^^^^^^^^^^^
+jinja2.exceptions.UndefinedError: 'product' is undefined
+2025-06-27 00:16:09,843 INFO chat_connect(606) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:16:50,100 INFO chat_connect(606) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:17:10,543 INFO chat_disconnect(618) Müşteri mehmet özer, #1 nolu sohbetten ayrıldı.
+2025-06-27 00:17:19,934 INFO chat_connect(606) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:23:13,610 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:23:25,212 INFO chat_disconnect(638) Müşteri mehmet özer, #1 nolu sohbetten ayrıldı.
+2025-06-27 00:23:30,119 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:23:44,745 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:23:58,463 INFO chat_disconnect(638) Müşteri mehmet, #2 nolu sohbetten ayrıldı.
+2025-06-27 00:24:45,094 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:25:18,115 INFO chat_disconnect(638) Müşteri mehmey, #3 nolu sohbetten ayrıldı.
+2025-06-27 00:28:39,412 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:29:02,502 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:29:03,747 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:29:13,722 INFO chat_disconnect(638) Müşteri mehmet, #4 nolu sohbetten ayrıldı.
+2025-06-27 00:29:17,859 INFO chat_disconnect(638) Müşteri mehmet, #4 nolu sohbetten ayrıldı.
+2025-06-27 00:29:19,404 INFO chat_disconnect(638) Müşteri mehmet, #4 nolu sohbetten ayrıldı.
+2025-06-27 00:29:24,085 INFO chat_disconnect(638) Müşteri mehmet, #4 nolu sohbetten ayrıldı.
+2025-06-27 00:34:35,600 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:34:44,032 INFO chat_connect(626) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:42:40,598 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:50:53,567 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:51:00,402 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:51:11,648 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:51:26,681 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:51:27,874 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:51:28,907 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:51:30,745 INFO chat_connect(624) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:55:08,418 INFO chat_connect(625) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:55:20,290 INFO chat_connect(625) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:55:22,220 INFO chat_connect(625) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:55:49,529 INFO chat_connect(625) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:55:50,568 INFO chat_connect(625) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:55:54,757 INFO chat_disconnect(637) Müşteri mehmet  t, #2 nolu sohbetten ayrıldı.
+2025-06-27 00:55:58,588 INFO chat_connect(625) Yetkili admin, support_team odasına katıldı.
+2025-06-27 00:56:05,917 INFO chat_connect(625) Yetkili admin, support_team odasına katıldı.
+2025-06-28 00:03:45,329 INFO checkout(331) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-28 00:03:45,332 INFO checkout(333) {'api_key': 'YOUR_SHOPIER_API_KEY', 'website_index': 1, 'platform_order_id': 'MH-F6F283AEC611F9C1', 'product_name': 'MH-F6F283AEC611F9C1 Nolu Siparis', 'product_type': '2', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Değil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Değil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'total_order_price': '29.99', 'currency': 'TRY', 'lang': 'tr-TR', 'callback_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/shopier/callback', 'platform': 0, 'is_in_frame': 0, 'random_nr': '57495241', 'signature': 'R13Yd5wijIBpmvKzHf32W9v9cmleBdVmnZcaTsXXsGw='}
+2025-06-28 00:04:09,773 INFO checkout(331) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-28 00:04:09,773 INFO checkout(333) {'api_key': 'YOUR_SHOPIER_API_KEY', 'website_index': 1, 'platform_order_id': 'MH-AF3087F6F78C4612', 'product_name': 'MH-AF3087F6F78C4612 Nolu Siparis', 'product_type': '2', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Değil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Değil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'total_order_price': '29.99', 'currency': 'TRY', 'lang': 'tr-TR', 'callback_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/shopier/callback', 'platform': 0, 'is_in_frame': 0, 'random_nr': '87962193', 'signature': 'EV8Ln70Ifw0CmP9VtAm28OxkT+uzyW/ehNMy18/dNG0='}
+2025-06-28 00:07:47,397 INFO checkout(328) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-28 00:07:47,397 INFO checkout(330) {'api_key': 'ae3016148893c899fca3a8b3f635b12a', 'website_index': '1', 'platform_order_id': 'MH-A49D7B869C94FDA3', 'product_name': 'MH-A49D7B869C94FDA3 Nolu Siparis', 'product_type': '2', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Değil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Değil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'total_order_price': '29.99', 'currency': 'TRY', 'lang': 'tr-TR', 'callback_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/shopier/callback', 'platform': '0', 'is_in_frame': '0', 'random_nr': '75543940', 'signature': 'j8Gj0VlbzD0fx6Fx+ktpEse03bNohU3QMoqmC5FkzXI='}
+2025-06-28 00:11:44,526 INFO checkout(328) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-28 00:11:44,526 INFO checkout(330) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-BEC63C5660122479', 'product_name': 'MH-BEC63C5660122479 Nolu Siparis', 'product_type': '2', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Değil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Değil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'total_order_price': '29.99', 'currency': 'TRY', 'lang': 'tr-TR', 'callback_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/shopier/callback', 'platform': '0', 'is_in_frame': '0', 'random_nr': '80389210', 'signature': 'jP5cPO9d5EkycCJ7AgHQ58Xls0VUMwLA/JJamdLrFOY='}
+2025-06-28 00:16:47,785 INFO checkout(326) Shopier'a yönlendirme yapılıyor (GitHub Mantığı). Gönderilen parametreler:
+2025-06-28 00:16:47,785 INFO checkout(329) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-3D0E47ACBBC4B8C1', 'product_name': 'MH-3D0E47ACBBC4B8C1 Nolu Siparis', 'product_type': '2', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Değil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Değil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'total_order_price': '29.99', 'currency': 'TRY', 'lang': 'tr-TR', 'callback_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/shopier/callback', 'platform': '0', 'is_in_frame': '0', 'current_time': '1751069807', 'signature': 'a8e579118caacb5b65b0df6a34576c5db9c042070597a76fdc0d091ebe6a2dc9'}
+2025-06-28 00:18:10,970 INFO checkout(326) Shopier'a yönlendirme yapılıyor (GitHub Mantığı). Gönderilen parametreler:
+2025-06-28 00:18:10,970 INFO checkout(329) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-483CC52A78CEB15B', 'product_name': 'MH-483CC52A78CEB15B Nolu Siparis', 'product_type': '2', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Değil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Değil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'total_order_price': '29.99', 'currency': 'TRY', 'lang': 'tr-TR', 'callback_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/shopier/callback', 'platform': '0', 'is_in_frame': '0', 'current_time': '1751069890', 'signature': '09d8a019d52a33773281b819ef84cceba08866c7aa416183f02d23f66af655e1'}
+2025-06-28 23:22:13,841 INFO checkout(326) Shopier'a yönlendirme yapılıyor (GitHub Mantığı). Gönderilen parametreler:
+2025-06-28 23:22:13,842 INFO checkout(329) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-60E56EA5C22215F9', 'product_name': 'MH-60E56EA5C22215F9 Nolu Siparis', 'product_type': '2', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Değil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Değil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'total_order_price': '29.99', 'currency': 'TRY', 'lang': 'tr-TR', 'callback_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/shopier/callback', 'platform': '0', 'is_in_frame': '0', 'current_time': '1751152933', 'signature': '2fc5e828a77fed49053830703064fd18b2b2203ff276152304f21c239cb8557f'}
+2025-06-28 23:43:52,628 INFO checkout(323) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-28 23:43:52,628 INFO checkout(326) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-267D672DCEF0B4C8', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_name': 'gettoreal', 'user_surname': '.', 'user_email': 'tohello12@gmail.com', 'user_phone': '5555555555', 'user_address': 'Adres Bilgisi Gerekli Degil', 'client_ip': '127.0.0.1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'signature': 'wyHkHNeBnYjtP245pCG66Ay0YefooYoOabxpmjyOPc8=', 'platform': '0'}
+2025-06-28 23:44:14,990 INFO checkout(323) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-28 23:44:14,990 INFO checkout(326) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-60B72AB0CCF3CC5F', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_name': 'gettoreal', 'user_surname': '.', 'user_email': 'tohello12@gmail.com', 'user_phone': '5555555555', 'user_address': 'Adres Bilgisi Gerekli Degil', 'client_ip': '127.0.0.1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'signature': 'xuhNodSIHyD+IUhuNkZ1nSh8Mt1uwgCOMSNb1fPRjCw=', 'platform': '0'}
+2025-06-28 23:45:40,990 INFO checkout(323) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-28 23:45:40,990 INFO checkout(326) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-8DE9246AD8BA93A2', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_name': 'gettoreal', 'user_surname': '.', 'user_email': 'tohello12@gmail.com', 'user_phone': '5555555555', 'user_address': 'Adres Bilgisi Gerekli Degil', 'client_ip': '127.0.0.1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'signature': 'FPRh3AvMuHRcoKAZXNZ219LqqygaTyWBRkfWxxFH9nU=', 'platform': '0'}
+2025-06-28 23:50:20,214 INFO checkout(323) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-28 23:50:20,214 INFO checkout(326) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-12FD572E8B38B5BF', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_name': 'gettoreal', 'user_surname': '.', 'user_email': 'tohello12@gmail.com', 'user_phone': '5555555555', 'user_address': 'Adres Bilgisi Gerekli Degil', 'client_ip': '127.0.0.1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'signature': 'V4TGS73IUicffBilIL4x82PknBpuJY6+P+j7W1QScm4=', 'platform': '0'}
+2025-06-29 00:06:15,945 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 00:06:15,946 INFO checkout(327) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-B7A0A226B1C578B4', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': 'doPPI8Hu3IjR0wtwymHZJtX70gWhE4EJN+x47H0mYag='}
+2025-06-29 19:45:09,746 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 19:45:09,746 INFO checkout(327) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-960971908F28C10A', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': 'PyH/z6/YPjP9O637T9r3yks3ACLrRyqMHEdlKt5DUW8='}
+2025-06-29 19:47:42,114 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 19:47:42,118 INFO checkout(327) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-577CF9895856C2BE', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': '7MKWiQq5QtcpNuQbxuemlvTGaiiw1f3lku0M+jMS5ys='}
+2025-06-29 19:49:03,650 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 19:49:03,651 INFO checkout(327) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-B55A0F663A179A6B', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': 'YnjCKVY23p6ZIAwlSDRNounGY4TwonT9gQ53ZSh+CIM='}
+2025-06-29 19:51:41,323 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 19:51:41,323 INFO checkout(327) {'api_key': '', 'website_index': '1', 'platform_order_id': 'MH-A27886A66B643A4D', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': '3nU9KfOoRXLpU9sJWZpXX5znA4vJ6r0pgCmropsoE30='}
+2025-06-29 20:06:50,454 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 20:06:50,455 INFO checkout(327) {'api_key': '', 'website_index': '1', 'platform_order_id': 'MH-133D466C508BADB3', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': 'HrOiGPW9OwmJ2HfZ+c/T569YD7Pp1L19wvksUNmbRVs='}
+2025-06-29 20:08:00,850 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 20:08:00,850 INFO checkout(327) {'api_key': '', 'website_index': '1', 'platform_order_id': 'MH-05393F32BAE9C136', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': '7tpPFK1+3VmJN9AGWBRZXXE4n/TR+BMvGPtBnagn6lM='}
+2025-06-29 20:09:18,433 INFO chat_connect(752) Yetkili admin, support_team odasına katıldı.
+2025-06-29 20:09:19,150 INFO chat_connect(752) Yetkili admin, support_team odasına katıldı.
+2025-06-29 20:09:31,890 INFO chat_connect(752) Yetkili admin, support_team odasına katıldı.
+2025-06-29 20:09:33,506 INFO chat_connect(752) Yetkili admin, support_team odasına katıldı.
+2025-06-29 20:09:50,355 INFO chat_connect(752) Yetkili admin, support_team odasına katıldı.
+2025-06-29 20:10:03,838 INFO chat_connect(752) Yetkili admin, support_team odasına katıldı.
+2025-06-29 20:10:08,782 INFO chat_connect(752) Yetkili admin, support_team odasına katıldı.
+2025-06-29 20:10:26,548 INFO chat_disconnect(764) Müşteri mehmet, #1 nolu sohbetten ayrıldı.
+2025-06-29 20:10:28,507 INFO chat_disconnect(764) Müşteri mehmet, #1 nolu sohbetten ayrıldı.
+2025-06-29 20:10:35,301 INFO chat_disconnect(764) Müşteri mehmet, #1 nolu sohbetten ayrıldı.
+2025-06-29 20:12:06,950 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 20:12:06,951 INFO checkout(327) {'api_key': '', 'website_index': '1', 'platform_order_id': 'MH-CABCE7B522DE8639', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': 'GBRBNG0H98joL1vBJdTYxiEsCW7JFRymg27OMeGKqeM='}
+2025-06-29 20:13:11,404 INFO checkout(324) Shopier'a yönlendirme yapılıyor (Django Mantığı). Gönderilen parametreler:
+2025-06-29 20:13:11,404 INFO checkout(327) {'api_key': '', 'website_index': '1', 'platform_order_id': 'MH-F0CCD4A6FE4A0DEA', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'buyer_account_age': '0', 'client_ip': '127.0.0.1', 'is_in_frame': '0', 'status_email': '1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'module': 'Flask', 'signature': 'oBFSopm3dgytnZEbHJ/9ngVs59gla/gR7DPb+Y4Gsls='}
+2025-06-29 20:51:09,570 INFO checkout(312) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-29 20:51:09,571 INFO checkout(314) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-0DB9EB9C4EC7476C', 'product_name': 'ModernHosting Siparis', 'total_order_value': '29.99', 'currency': 'TRY', 'user_email': 'tohello12@gmail.com', 'user_name': 'gettoreal', 'user_surname': '.', 'user_address': 'Adres Bilgisi Gerekli Degil', 'user_phone': '5555555555', 'client_ip': '127.0.0.1', 'redirect_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/hesabim/dashboard?payment=success', 'cancel_url': 'http://bfc9c389-8c4a-47c5-8a11-61fc33fe79ad-00-13u5hgfa6azwv.pike.replit.dev/sepetim?payment=cancel', 'signature': '6Dws2yFcXri9z9EwGeL3mVwk+Hzlat3ZqS4KchIj0h4='}
+2025-06-29 21:00:13,077 INFO checkout(315) Shopier'a yönlendirme yapılıyor (PHP Kütüphanesi Mantığı). Gönderilen parametreler:
+2025-06-29 21:00:13,077 INFO checkout(318) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-58D5D3C1AF123407', 'product_name': 'ModernHosting Siparis', 'product_price': '29.99', 'currency': 'TRY', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'platform': '0', 'signature': 'K8+UOhF28EtRN7tjJ3rw/fJSQUr70jOPeXxbGi18v5I=', 'random_nr': '36257764'}
+2025-06-29 21:06:50,784 INFO checkout(315) Shopier'a yönlendirme yapılıyor (PHP Kütüphanesi Mantığı). Gönderilen parametreler:
+2025-06-29 21:06:50,785 INFO checkout(318) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-BA0CB10EF79469AF', 'product_name': 'ModernHosting Siparis', 'product_price': '29.99', 'currency': 'TRY', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'platform': '0', 'signature': 'Ay+HmQS5yZqtrMgSSHBOFtspq4Op4m9JcSAx+i9vkdE=', 'random_nr': '14106269'}
+2025-06-29 21:11:20,712 INFO checkout(313) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-29 21:11:20,712 INFO checkout(315) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-1FB99DD62F52BB78', 'product_name': 'ModernHosting Siparis', 'product_price': '29.99', 'currency': 'TRY', 'buyer_name': 'gettoreal', 'buyer_surname': '.', 'buyer_email': 'tohello12@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'platform': '0', 'signature': '4js/586pC5d6ILmrvT8qSkTjduRlPKE3MLKrOCC76Ac=', 'random_nr': '61537242'}
+2025-06-29 21:16:16,998 INFO checkout(290) Hibrit model: PHP script'ine yönlendiriliyor: https://20d27a6b-a00b-4d09-aa2b-fd7a24e8ffd0-00-1xbpi70ilqyir.pike.replit.dev/?platform_order_id=MH-95A068EDF2293C3C&price=29.99&name=gettoreal&surname=.&email=tohello12%40gmail.com
+2025-06-29 21:23:05,278 INFO checkout(290) Hibrit model: PHP script'ine yönlendiriliyor: https://20d27a6b-a00b-4d09-aa2b-fd7a24e8ffd0-00-1xbpi70ilqyir.pike.replit.dev/?platform_order_id=MH-1B820D9054A8AE44&price=29.99&name=gettoreal&surname=.&email=tohello12%40gmail.com
+2025-06-29 21:23:15,512 INFO chat_connect(715) Yetkili admin, support_team odasına katıldı.
+2025-06-29 21:23:27,644 INFO checkout(290) Hibrit model: PHP script'ine yönlendiriliyor: https://20d27a6b-a00b-4d09-aa2b-fd7a24e8ffd0-00-1xbpi70ilqyir.pike.replit.dev/?platform_order_id=MH-EB23A92564441E3E&price=1.99&name=gettoreal&surname=.&email=tohello12%40gmail.com
+2025-06-29 22:44:12,223 ERROR checkout(293) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:44:15,867 ERROR checkout(293) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:44:19,599 ERROR checkout(293) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:44:21,802 ERROR checkout(293) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:44:29,901 ERROR checkout(293) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:46:01,203 ERROR checkout(293) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:52:49,193 INFO chat_connect(665) Yetkili admin, support_team odasına katıldı.
+2025-06-29 22:55:50,415 ERROR checkout(326) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:55:53,891 ERROR checkout(326) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 22:59:19,122 ERROR checkout(301) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'return_url'
+2025-06-29 23:07:01,752 INFO checkout(330) Shopier'a yönlendirme yapılıyor (DOĞRU İmza Mantığı). Gönderilen parametreler:
+2025-06-29 23:07:01,752 INFO checkout(333) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-4A064701F99D0309', 'product_name': 'ModernHosting Siparis', 'product_price': '1.00', 'currency': '0', 'buyer_name': 'getto', 'buyer_surname': '.', 'buyer_email': 'haydaygetto@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'platform': '0', 'signature': '5t55bDKjFTZeyaiueRsCVMxLkQ9L5mfzA0LfielaxeI=', 'random_nr': '36202416'}
+2025-06-29 23:13:56,250 INFO checkout(299) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-29 23:13:56,250 INFO checkout(301) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-665BB10274BA042F', 'product_name': 'ModernHosting Siparis', 'product_price': '1.00', 'currency': '0', 'buyer_name': 'getto', 'buyer_surname': '.', 'buyer_email': 'haydaygetto@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'platform': '0', 'signature': 'xEii1eZtRe25wrkaFXFNiVmfWos766BCRrekQv3w6Ow=', 'random_nr': '62343025'}
+2025-06-29 23:15:38,928 INFO checkout(299) Shopier'a yönlendirme yapılıyor. Gönderilen parametreler:
+2025-06-29 23:15:38,928 INFO checkout(301) {'api_key': 'cab57edcd1a6a9a3ae14e4585e3e925e', 'website_index': '1', 'platform_order_id': 'MH-8D875A6E087AA7DB', 'product_name': 'ModernHosting Siparis', 'product_price': '1.00', 'currency': '0', 'buyer_name': 'getto', 'buyer_surname': '.', 'buyer_email': 'haydaygetto@gmail.com', 'buyer_phone': '5555555555', 'billing_address': 'Adres Bilgisi Gerekli Degil', 'billing_city': 'Istanbul', 'billing_country': 'TR', 'billing_postcode': '34000', 'shipping_address': 'Adres Bilgisi Gerekli Degil', 'shipping_city': 'Istanbul', 'shipping_country': 'TR', 'shipping_postcode': '34000', 'platform': '0', 'signature': 'JU9ogg0q8c3L/0rUdDCI9bgBLCuH1u+zvASouMlnAJA=', 'random_nr': '58142854'}
+2025-06-29 23:24:03,634 INFO checkout(292) Shopier parametreleri oluşturuldu, yönlendirme formuna render ediliyor.
+2025-06-29 23:41:46,441 INFO payment_callback(306) Callback isteği alındı: {'platform_order_id': 'MH-5E731C87A10895A4', 'status': 'success', 'installment': '0', 'payment_id': '651111619', 'random_nr': '483456', 'signature': '0iAo3nQ1JRROaO3t/uo/ZHLUbgEouKrq1ECxqT/Ik84='}
+2025-06-29 23:41:46,454 INFO payment_callback(312) Geçerli callback. Sipariş ID: MH-5E731C87A10895A4, Durum: success
+2025-06-29 23:50:02,555 INFO chat_connect(725) Yetkili admin, support_team odasına katıldı.
+2025-06-29 23:51:29,452 INFO payment_callback(323) Callback POST isteği alındı: {'platform_order_id': 'MH-723CFD406103BE04', 'status': 'success', 'installment': '0', 'payment_id': '705890615', 'random_nr': '634072', 'signature': 'cfghuYSrw0NzHBibQY9r/is9FnCO0rjYJcM3sVysW90='}
+2025-06-29 23:51:29,453 INFO payment_callback(329) Geçerli callback. Sipariş ID: MH-723CFD406103BE04, Durum: success
+2025-06-29 23:51:29,455 INFO payment_callback(339) Sipariş MH-723CFD406103BE04 durumu 'Onay Bekliyor' olarak güncellendi.
+2025-06-29 23:54:54,582 INFO chat_connect(725) Yetkili admin, support_team odasına katıldı.
+2025-06-30 00:07:29,020 INFO chat_connect(702) Yetkili admin, support_team odasına katıldı.
+2025-06-30 00:08:06,130 INFO chat_connect(702) Yetkili admin, support_team odasına katıldı.
+2025-06-30 00:08:11,748 INFO chat_connect(702) Yetkili admin, support_team odasına katıldı.
+2025-06-30 00:09:27,362 INFO payment_callback(307) Callback isteği alındı: {'platform_order_id': 'MH-2A16ABE496172ECE', 'status': 'success', 'installment': '0', 'payment_id': '806585268', 'random_nr': '310088', 'signature': 'vPDawGux2/Sc0iWPiFYrY4aI4i9lwSZlPbFr72iDlf8='}
+2025-06-30 00:09:27,362 INFO payment_callback(313) Geçerli callback. Sipariş ID: MH-2A16ABE496172ECE, Durum: success
+2025-06-30 00:15:00,087 ERROR checkout(292) Shopier ödeme başlatma hatası: ShopierService.get_params() missing 2 required positional arguments: 'redirect_url' and 'cancel_url'
+2025-06-30 00:15:28,291 INFO chat_connect(702) Yetkili admin, support_team odasına katıldı.
+2025-06-30 01:36:15,849 INFO chat_connect(705) Yetkili admin, support_team odasına katıldı.
+2025-06-30 01:36:17,771 ERROR checkout(295) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'cancel_url'
+2025-06-30 01:41:00,318 ERROR checkout(295) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'cancel_url'
+2025-06-30 01:41:01,696 INFO chat_connect(705) Yetkili admin, support_team odasına katıldı.
+2025-06-30 01:41:17,600 ERROR checkout(295) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'cancel_url'
+2025-06-30 01:47:46,873 INFO chat_connect(708) Yetkili admin, support_team odasına katıldı.
+2025-06-30 01:47:52,415 ERROR checkout(298) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'cancel_url'
+2025-06-30 01:57:04,698 INFO chat_connect(708) Yetkili admin, support_team odasına katıldı.
+2025-06-30 01:57:13,749 ERROR checkout(298) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'cancel_url'
+2025-06-30 01:58:03,674 INFO chat_connect(708) Yetkili admin, support_team odasına katıldı.
+2025-06-30 01:59:58,688 INFO chat_connect(708) Yetkili admin, support_team odasına katıldı.
+2025-06-30 02:00:03,253 ERROR checkout(298) Shopier ödeme başlatma hatası: name 'params_for_signature' is not defined
+2025-06-30 02:05:52,824 INFO chat_connect(702) Yetkili admin, support_team odasına katıldı.
+2025-06-30 02:06:20,255 INFO chat_connect(702) Yetkili admin, support_team odasına katıldı.
+2025-06-30 02:09:56,524 INFO payment_callback(307) Callback isteği alındı: {'platform_order_id': 'MH-F2C46D71E9E5B85F', 'status': 'success', 'installment': '0', 'payment_id': '996747543', 'random_nr': '670370', 'signature': 'u06MURHRj4zdp2u+7mUUxHL9a+jEr2pOtGR1g1PpEIU='}
+2025-06-30 02:09:56,525 INFO payment_callback(313) Geçerli callback. Sipariş ID: MH-F2C46D71E9E5B85F, Durum: success
+2025-06-30 22:13:25,437 INFO chat_connect(691) Yetkili admin, support_team odasına katıldı.
+2025-06-30 22:14:14,444 INFO payment_callback(308) Sunucudan Callback isteği alındı: {'platform_order_id': 'MH-03E1A5F55A81A04E', 'status': 'success', 'installment': '0', 'payment_id': '686870794', 'random_nr': '107658', 'signature': 'bUXsMCJiozxRu+EDNbntpVx1K7aTkgZHVyNwIpFTB1c='}
+2025-06-30 22:14:14,532 INFO payment_callback(325) Sipariş MH-03E1A5F55A81A04E durumu 'Aktif' olarak güncellendi.
+2025-06-30 22:21:57,144 ERROR checkout(296) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'redirect_url'
+2025-06-30 22:21:59,829 ERROR checkout(296) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'redirect_url'
+2025-06-30 22:22:12,916 ERROR checkout(296) Shopier ödeme başlatma hatası: ShopierService.get_params() got an unexpected keyword argument 'redirect_url'
+2025-06-30 22:31:43,657 INFO payment_callback(310) Sunucudan Callback (POST) isteği alındı: {'platform_order_id': 'MH-F06BE1CF7BE5D0A2', 'status': 'success', 'installment': '0', 'payment_id': '349699437', 'random_nr': '205168', 'signature': 'teU2ZScuq3gugsid/8/YhLnr6HDCTOwsekPQYJy8VV8='}
+2025-06-30 22:31:43,700 INFO payment_callback(330) Sipariş MH-F06BE1CF7BE5D0A2 başarıyla 'Aktif' duruma getirildi.
+2025-06-30 22:35:57,590 INFO payment_callback(311) Callback (POST) isteği alındı: {'platform_order_id': 'MH-07B4340A8C3CB756', 'status': 'success', 'installment': '0', 'payment_id': '253988283', 'random_nr': '393240', 'signature': 'CPA6lgb1pgGf2+K7RNnP4gb/SQHEk/ihuLVTUjLrt8c='}
+2025-06-30 22:35:57,658 INFO payment_callback(333) Sipariş MH-07B4340A8C3CB756 başarıyla 'Aktif' duruma getirildi.
+2025-06-30 22:56:33,055 ERROR checkout(293) Shopier ödeme başlatma hatası: 'Shopier' object has no attribute 'get_params'
+2025-06-30 22:59:28,652 ERROR checkout(293) Shopier ödeme başlatma hatası: 'Shopier' object has no attribute 'get_params'
+2025-06-30 23:07:29,536 INFO payment_callback(311) Callback (POST) isteği alındı: {'platform_order_id': 'MH-53B925BD5937194A', 'status': 'success', 'installment': '0', 'payment_id': '350064334', 'random_nr': '276600', 'signature': '4bDlQ68L5TLlqyJs6Lz9w2ARBwMmy6vLpPMXmVPFEwA='}
+2025-06-30 23:07:29,586 INFO payment_callback(330) Sipariş MH-53B925BD5937194A başarıyla 'Onay Bekliyor' durumuna getirildi.
+2025-06-30 23:07:57,576 INFO chat_connect(689) Yetkili admin, support_team odasına katıldı.
+2025-07-01 00:33:33,021 INFO chat_connect(689) Yetkili admin, support_team odasına katıldı.
+2025-07-01 00:33:43,762 INFO chat_connect(689) Yetkili admin, support_team odasına katıldı.
+2025-07-01 00:36:06,839 INFO chat_connect(689) Yetkili admin, support_team odasına katıldı.
+2025-07-01 00:36:11,096 INFO chat_connect(689) Yetkili admin, support_team odasına katıldı.
+2025-07-01 00:36:51,688 INFO chat_connect(689) Yetkili admin, support_team odasına katıldı.
+2025-07-01 00:41:11,075 INFO chat_connect(689) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:48:37,183 INFO chat_connect(738) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:49:24,093 INFO chat_connect(738) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:49:28,283 INFO chat_connect(738) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:52:19,766 INFO chat_connect(749) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:57:07,697 INFO chat_connect(788) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:57:09,383 INFO chat_connect(788) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:57:14,021 INFO chat_connect(788) Yetkili admin, support_team odasına katıldı.
+2025-07-01 20:57:17,721 INFO chat_connect(788) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:05:23,251 INFO chat_connect(820) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:05:26,467 INFO chat_connect(820) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:05:32,997 INFO chat_connect(820) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:06:03,260 INFO chat_connect(820) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:06:04,553 INFO chat_connect(820) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:06:49,259 INFO chat_connect(820) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:26:49,795 INFO chat_connect(948) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:28:59,480 INFO chat_connect(948) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:52:10,273 INFO chat_connect(985) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:52:26,009 INFO chat_connect(985) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:53:41,909 INFO payment_callback(369) Callback (POST) isteği alındı: {'platform_order_id': 'MH-5FF15397B9C7DB8A', 'status': 'success', 'installment': '0', 'payment_id': '606968519', 'random_nr': '113450', 'signature': 'Dw0+DMtFlUMiuxsKpOCQuujOtbFJSz4Q5yhVQE2foRQ='}
+2025-07-01 21:53:41,964 INFO payment_callback(396) Sipariş MH-5FF15397B9C7DB8A başarıyla 'Onay Bekliyor' durumuna getirildi.
+2025-07-01 21:53:51,593 INFO chat_connect(985) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:53:59,762 INFO chat_connect(985) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:54:23,217 INFO chat_connect(985) Yetkili admin, support_team odasına katıldı.
+2025-07-01 21:54:25,538 INFO chat_connect(985) Yetkili admin, support_team odasına katıldı.
+2025-07-01 22:07:35,227 INFO chat_connect(988) Yetkili admin, support_team odasına katıldı.
+2025-07-01 22:07:39,437 INFO chat_connect(988) Yetkili admin, support_team odasına katıldı.
+2025-07-01 22:19:45,058 INFO chat_connect(988) Yetkili admin, support_team odasına katıldı.

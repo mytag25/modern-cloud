@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="text-center mb-5">
+    <h1 class="display-5 fw-bold">Size En Uygun Paketi Seçin</h1>
+    <p class="lead text-muted">İhtiyaçlarınıza özel olarak tasarlanmış, esnek ve güçlü hosting paketlerimizle tanışın.</p>
+</div>
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    {% for product in products %}
+    <div class="col">
+        <div class="card h-100 shadow-sm">
+            <div class="card-header py-3">
+                <h4 class="my-0 fw-normal">{{ product.name }}</h4>
+            </div>
+            <div class="card-body d-flex flex-column">
+                <h1 class="card-title pricing-card-title">{{ "%.2f"|format(product.price) }} TL<small class="text-body-secondary fw-light">/{{ product.billing_cycle }}</small></h1>
+                <ul class="list-unstyled mt-3 mb-4">
+                     {% for line in product.description.split('\n') %}
+                        <li><i class="bi bi-check-circle-fill text-success me-2"></i>{{ line }}</li>
+                    {% endfor %}
+                </ul>
+                <div class="mt-auto">
+                    <a href="{{ url_for('product_detail', product_id=product.id) }}" class="btn btn-lg btn-primary w-100">İncele ve Sepete Ekle</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% else %}
+    <div class="col-12">
+        <div class="alert alert-info text-center">
+            Şu anda görüntülenecek paket bulunmuyor.
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mb-4">Manuel Hizmet Ekle</h1>
+    <p>Bu sayfadan, bir müşteriye manuel olarak aktif bir hizmet (sipariş) oluşturabilirsiniz.</p>
+    <div class="card">
+        <div class="card-body">
+            <form method="POST" action="">
+                {{ form.hidden_tag() }}
+                <div class="mb-3">
+                    {{ form.customer.label(class="form-label") }}
+                    {{ form.customer(class="form-select") }}
+                </div>
+                <div class="mb-3">
+                    {{ form.product.label(class="form-label") }}
+                    {{ form.product(class="form-select") }}
+                </div>
+                <div class="mb-3">
+                    {{ form.credentials.label(class="form-label") }}
+                    {{ form.credentials(class="form-control", rows=8, placeholder="cPanel Adresi: https://ornek.com:2083\nKullanıcı Adı: kullanici\nŞifre: GucluSifre123") }}
+                </div>
+                <div class="d-grid">
+                    {{ form.submit(class="btn btn-primary") }}
+                </div>
+            </form>
+        </div>
+    </div>
+{% endblock %}

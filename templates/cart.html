@@ -1,0 +1,95 @@
+{% extends "base.html" %}
+{% block content %}
+<h1 class="mb-4">Alışveriş Sepetim</h1>
+{% if cart_items %}
+<div class="row g-4">
+    <!-- Sepet Ürünleri -->
+    <div class="col-md-8">
+        <div class="card">
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead>
+                        <tr>
+                            <th style="width: 60%;">Ürün</th>
+                            <th style="width: 20%;">Birim Fiyat</th>
+                            <th style="width: 20%;" class="text-end">Ara Toplam</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% for item in cart_items %}
+                        <tr>
+                            <td>
+                                <div class="d-flex align-items-center">
+                                    <img src="{{ item.product.image_url or 'https://placehold.co/60x60/242424/EAEAEA/png?text=Resim' }}" alt="{{ item.product.name }}" class="img-fluid rounded me-3" style="width: 60px; height: 60px; object-fit: cover;">
+                                    <div>
+                                        <strong>{{ item.product.name }}</strong>
+                                        <div class="text-muted small">{{ item.product.billing_cycle }}</div>
+                                        <form action="{{ url_for('remove_from_cart', product_id=item.product.id) }}" method="POST" class="d-inline">
+                                            <button type="submit" class="btn btn-link text-danger p-0 small">Kaldır</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </td>
+                            <td>{{ "%.2f"|format(item.product.price) }} TL</td>
+                            <td class="text-end fw-bold">{{ "%.2f"|format(item.product.price * item.quantity) }} TL</td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sipariş Özeti ve Kupon -->
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h5>Sipariş Özeti</h5>
+            </div>
+            <div class="card-body">
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0">
+                        <span>Ara Toplam</span>
+                        <span>{{ "%.2f"|format(subtotal) }} TL</span>
+                    </li>
+                    {% if discount > 0 %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 text-success">
+                        <span>İndirim ({{ applied_coupon.code }})</span>
+                        <span>- {{ "%.2f"|format(discount) }} TL</span>
+                    </li>
+                    {% endif %}
+                    <li class="list-group-item d-flex justify-content-between align-items-center px-0 fw-bold border-top pt-3">
+                        <span>TOPLAM</span>
+                        <strong>{{ "%.2f"|format(total_price) }} TL</strong>
+                    </li>
+                </ul>
+
+                <hr>
+
+                <!-- Kupon Uygulama Formu -->
+                {% if not applied_coupon %}
+                <form action="{{ url_for('apply_coupon') }}" method="POST" class="d-flex gap-2">
+                    <input type="text" name="coupon_code" class="form-control" placeholder="İndirim Kodu" required>
+                    <button type="submit" class="btn btn-secondary">Uygula</button>
+                </form>
+                {% else %}
+                <div class="d-flex justify-content-between align-items-center">
+                    <p class="mb-0 text-success"><i class="bi bi-check-circle-fill"></i> Kupon Uygulandı: <strong>{{ applied_coupon.code }}</strong></p>
+                    <form action="{{ url_for('remove_coupon') }}" method="POST">
+                        <button type="submit" class="btn btn-sm btn-outline-danger">Kaldır</button>
+                    </form>
+                </div>
+                {% endif %}
+            </div>
+            <div class="card-footer d-grid">
+                 <a href="{{ url_for('checkout') }}" class="btn btn-primary btn-lg">Onayla ve Devam Et &rarr;</a>
+            </div>
+        </div>
+    </div>
+</div>
+{% else %}
+<div class="alert alert-info text-center">
+    Sepetinizde henüz ürün bulunmuyor. <a href="{{ url_for('paketler') }}" class="alert-link">Paketlerimizi inceleyin.</a>
+</div>
+{% endif %}
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="container text-center py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card p-4 shadow-lg" style="background-color: #2c2c2c; border-color: #555;">
+                <div class="card-body">
+                    <i class="bi bi-patch-check-fill display-1 text-success mb-3"></i>
+                    <h1 class="card-title">Ödemeniz Başarıyla Alındı!</h1>
+                    <p class="lead text-muted">Siparişiniz oluşturuldu ve onay için yetkililere iletildi.</p>
+                    <hr class="my-4">
+                    <p>Birkaç saniye içinde "Siparişlerim" sayfasına yönlendirileceksiniz.</p>
+                    <div class="spinner-border text-success mt-3" role="status">
+                        <span class="visually-hidden">Yükleniyor...</span>
+                    </div>
+                    <p class="mt-4 small text-muted">Eğer yönlendirme çalışmazsa, <a href="{{ url_for('customer_orders') }}" class="text-warning">buraya tıklayabilirsiniz</a>.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- 5 saniye sonra 'customer_orders' sayfasına yönlendiren kod -->
+<meta http-equiv="refresh" content="5; url={{ url_for('customer_orders') }}">
+
+{% endblock %}

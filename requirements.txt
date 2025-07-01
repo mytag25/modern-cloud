@@ -1,0 +1,13 @@
+Flask
+Flask-SQLAlchemy
+Flask-Login
+Flask-WTF
+Flask-Bcrypt
+email_validator
+flask-socketio
+eventlet
+WTForms-SQLAlchemy
+wtforms
+sqlalchemy
+your-app
+python-dateutil

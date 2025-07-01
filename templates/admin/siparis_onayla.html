@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+    <h1 class="mb-4">Sipariş Onayla ve Bilgi Gönder</h1>
+    <div class="card">
+        <div class="card-header">
+            Sipariş Detayları
+        </div>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item"><b>Sipariş ID:</b> #{{ order.id }}</li>
+            <li class="list-group-item"><b>Müşteri:</b> {{ order.customer.username }}</li>
+            <li class="list-group-item"><b>Alınan Paket:</b> {{ order.product.name }}</li>
+        </ul>
+    </div>
+
+    <div class="card mt-4">
+        <div class="card-body">
+            <h5 class="card-title">Müşteriye Gönderilecek Bilgiler</h5>
+            <p>Aşağıdaki alana müşterinin hizmete erişim bilgilerini (cPanel, FTP vb.) yazın. Bu bilgiler müşterinin panelinde görüntülenecektir.</p>
+            <form method="POST" action="">
+                {{ form.hidden_tag() }}
+                <div class="mb-3">
+                    {{ form.content.label(class="form-label") }}
+                    {{ form.content(class="form-control", rows=10, placeholder="cPanel Adresi: https://ornek.com:2083\nKullanıcı Adı: kullanici\nŞifre: GucluSifre123") }}
+                </div>
+                <div class="d-grid">
+                    {{ form.submit(class="btn btn-success btn-lg") }}
+                </div>
+            </form>
+        </div>
+    </div>
+    <a href="{{ url_for('admin_orders') }}" class="btn btn-outline-secondary mt-3">Siparişlere Geri Dön</a>
+{% endblock %}

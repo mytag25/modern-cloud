@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="row">
+    <!-- Yeni Duyuru Ekleme Formu -->
+    <div class="col-md-4">
+        <div class="card">
+            <div class="card-header">
+                <h4>Yeni Duyuru Yayınla</h4>
+                <small class="text-muted">Yeni bir duyuru yayınladığınızda, önceki aktif duyuru otomatik olarak pasif hale gelir.</small>
+            </div>
+            <div class="card-body">
+                <form method="POST" action="">
+                    {{ form.hidden_tag() }}
+                    <div class="mb-3">
+                        {{ form.title.label(class="form-label") }}
+                        {{ form.title(class="form-control") }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.content.label(class="form-label") }}
+                        {{ form.content(class="form-control", rows="4") }}
+                    </div>
+                    <div class="mb-3">
+                        {{ form.category.label(class="form-label") }}
+                        {{ form.category(class="form-select") }}
+                    </div>
+                    <div class="d-grid">
+                        {{ form.submit(class="btn btn-primary") }}
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!-- Mevcut Duyurular Listesi -->
+    <div class="col-md-8">
+        <div class="card">
+            <div class="card-header">
+                <h4>Geçmiş Duyurular</h4>
+            </div>
+            <div class="card-body">
+                {% if announcements %}
+                <div class="list-group">
+                    {% for announcement in announcements %}
+                    <div class="list-group-item list-group-item-action flex-column align-items-start">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">{{ announcement.title }}</h5>
+                            <small class="text-muted">{{ announcement.timestamp.strftime('%d-%m-%Y') }}</small>
+                        </div>
+                        <p class="mb-1">{{ announcement.content }}</p>
+                        <div class="d-flex justify-content-between align-items-center mt-2">
+                            <div>
+                                {% if announcement.is_active %}
+                                    <span class="badge bg-success">Aktif</span>
+                                {% else %}
+                                     <form action="{{ url_for('activate_announcement', announcement_id=announcement.id) }}" method="POST" class="d-inline">
+                                        <button type="submit" class="btn btn-sm btn-outline-success">Aktif Et</button>
+                                    </form>
+                                {% endif %}
+                                <span class="badge bg-{{ announcement.category }} ms-2">{{ announcement.category|capitalize }}</span>
+                            </div>
+                            <form action="{{ url_for('delete_announcement', announcement_id=announcement.id) }}" method="POST" class="d-inline" onsubmit="return confirm('Bu duyuruyu silmek istediğinizden emin misiniz?');">
+                                <button type="submit" class="btn btn-sm btn-danger"><i class="bi bi-trash"></i></button>
+                            </form>
+                        </div>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <p class="text-center text-muted">Henüz oluşturulmuş bir duyuru yok.</p>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

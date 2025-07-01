@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Yönlendiriliyorsunuz...</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: sans-serif, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans';
+            background-color: #1a1a1a;
+            color: #eaeaea;
+            text-align: center;
+        }
+        .container p {
+            font-size: 1.2rem;
+        }
+        .container small {
+            color: #888;
+        }
+    </style>
+</head>
+<body onload="document.getElementById('shopier_form').submit();">
+    
+    <div class="container">
+        <p>Güvenli ödeme sayfasına yönlendiriliyorsunuz...</p>
+        <small>Lütfen bekleyin.</small>
+    </div>
+
+    <form id="shopier_form" method="post" action="https://www.shopier.com/ShowProduct/api_pay4.php" style="display: none;">
+        {% for key, value in shopier_params.items() %}
+            <input type="hidden" name="{{ key }}" value="{{ value }}">
+        {% endfor %}
+    </form>
+
+</body>
+</html>
